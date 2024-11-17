@@ -42,6 +42,11 @@
             label3 = new Label();
             btnMain = new Button();
             dataGridView1 = new DataGridView();
+            IdPrestamo = new DataGridViewTextBoxColumn();
+            IdLibro = new DataGridViewTextBoxColumn();
+            DniAlumno = new DataGridViewTextBoxColumn();
+            FechaPrestamo = new DataGridViewTextBoxColumn();
+            FechaDevolucion = new DataGridViewTextBoxColumn();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -183,11 +188,37 @@
             // 
             dataGridView1.BackgroundColor = Color.Brown;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { IdPrestamo, IdLibro, DniAlumno, FechaPrestamo, FechaDevolucion });
             dataGridView1.GridColor = Color.White;
             dataGridView1.Location = new Point(218, 12);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(570, 303);
             dataGridView1.TabIndex = 15;
+            // 
+            // IdPrestamo
+            // 
+            IdPrestamo.HeaderText = "ID del préstamo";
+            IdPrestamo.Name = "IdPrestamo";
+            // 
+            // IdLibro
+            // 
+            IdLibro.HeaderText = "ID del libro";
+            IdLibro.Name = "IdLibro";
+            // 
+            // DniAlumno
+            // 
+            DniAlumno.HeaderText = "DNI del alumno";
+            DniAlumno.Name = "DniAlumno";
+            // 
+            // FechaPrestamo
+            // 
+            FechaPrestamo.HeaderText = "Fecha del préstamo";
+            FechaPrestamo.Name = "FechaPrestamo";
+            // 
+            // FechaDevolucion
+            // 
+            FechaDevolucion.HeaderText = "Fecha de devolución";
+            FechaDevolucion.Name = "FechaDevolucion";
             // 
             // Prestamos
             // 
@@ -225,5 +256,10 @@
         private Label label3;
         private Button btnMain;
         private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn IdPrestamo;
+        private DataGridViewTextBoxColumn IdLibro;
+        private DataGridViewTextBoxColumn DniAlumno;
+        private DataGridViewTextBoxColumn FechaPrestamo;
+        private DataGridViewTextBoxColumn FechaDevolucion;
     }
 }
