@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\tp\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\dal\\prestamodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|solutionrelative:dal\\prestamodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A693586D-457D-4D3D-ABD3-8322BABAB1E0}|Entity\\Entity.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\tp\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\entity\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A693586D-457D-4D3D-ABD3-8322BABAB1E0}|Entity\\Entity.csproj|solutionrelative:entity\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\tp\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\bll\\prestamobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|solutionrelative:bll\\prestamobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\tp\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\dal\\librodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|solutionrelative:dal\\librodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\ui\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\tp\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\bll\\prestamobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|solutionrelative:bll\\prestamobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\tp\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\ui\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F1B09A6-10FF-4CC8-B7EA-E1F04739E26A}|Mapper\\Mapper.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\tp\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\mapper\\prestamomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F1B09A6-10FF-4CC8-B7EA-E1F04739E26A}|Mapper\\Mapper.csproj|solutionrelative:mapper\\prestamomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\tp\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\bll\\librobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|solutionrelative:bll\\librobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F1B09A6-10FF-4CC8-B7EA-E1F04739E26A}|Mapper\\Mapper.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\tp\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\mapper\\mapper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3F1B09A6-10FF-4CC8-B7EA-E1F04739E26A}|Mapper\\Mapper.csproj|solutionrelative:mapper\\mapper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\tp\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\dal\\prestamodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|solutionrelative:dal\\prestamodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\tp\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\ui\\ui.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\ui.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{3F1B09A6-10FF-4CC8-B7EA-E1F04739E26A}|Mapper\\Mapper.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\tp\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\mapper\\libromapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1B09A6-10FF-4CC8-B7EA-E1F04739E26A}|Mapper\\Mapper.csproj|solutionrelative:mapper\\libromapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A693586D-457D-4D3D-ABD3-8322BABAB1E0}|Entity\\Entity.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\tp\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\entity\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A693586D-457D-4D3D-ABD3-8322BABAB1E0}|Entity\\Entity.csproj|solutionrelative:entity\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\ui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -66,45 +66,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "PrestamoDAO.cs",
               "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\PrestamoDAO.cs",
               "RelativeDocumentMoniker": "DAL\\PrestamoDAO.cs",
               "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\PrestamoDAO.cs",
               "RelativeToolTip": "DAL\\PrestamoDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAcwFkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T01:57:03.441Z",
+              "WhenOpened": "2024-11-17T21:52:36.992Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Prestamo.cs",
-              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Prestamo.cs",
-              "RelativeDocumentMoniker": "Entity\\Prestamo.cs",
-              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Prestamo.cs",
-              "RelativeToolTip": "Entity\\Prestamo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T01:54:38.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Prestamos.cs",
               "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Prestamos.cs",
               "RelativeDocumentMoniker": "UI\\Prestamos.cs",
               "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Prestamos.cs",
               "RelativeToolTip": "UI\\Prestamos.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowBUAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAmwIQAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T16:01:30.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LibroBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\LibroBusiness.cs",
+              "RelativeDocumentMoniker": "BLL\\LibroBusiness.cs",
+              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\LibroBusiness.cs",
+              "RelativeToolTip": "BLL\\LibroBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T21:40:41.078Z",
               "EditorCaption": ""
             },
             {
@@ -115,27 +115,27 @@
               "RelativeDocumentMoniker": "BLL\\PrestamoBusiness.cs",
               "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\PrestamoBusiness.cs",
               "RelativeToolTip": "BLL\\PrestamoBusiness.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T02:03:25.05Z",
+              "WhenOpened": "2024-11-17T21:59:01.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PrestamoMapper.cs",
-              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\PrestamoMapper.cs",
-              "RelativeDocumentMoniker": "Mapper\\PrestamoMapper.cs",
-              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\PrestamoMapper.cs",
-              "RelativeToolTip": "Mapper\\PrestamoMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "LibroDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\LibroDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\LibroDAO.cs",
+              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\LibroDAO.cs",
+              "RelativeToolTip": "DAL\\LibroDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T02:15:04.507Z",
+              "WhenOpened": "2024-11-17T21:39:00.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Prestamos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Prestamos.cs",
               "RelativeDocumentMoniker": "UI\\Prestamos.cs",
@@ -147,27 +147,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UI",
-              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\UI.csproj",
-              "RelativeDocumentMoniker": "UI\\UI.csproj",
-              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\UI.csproj",
-              "RelativeToolTip": "UI\\UI.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-17T02:01:44.005Z",
+              "DocumentIndex": 6,
+              "Title": "LibroMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\LibroMapper.cs",
+              "RelativeDocumentMoniker": "Mapper\\LibroMapper.cs",
+              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\LibroMapper.cs",
+              "RelativeToolTip": "Mapper\\LibroMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T21:35:38.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Mapper.csproj",
-              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\Mapper.csproj",
-              "RelativeDocumentMoniker": "Mapper\\Mapper.csproj",
-              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\Mapper.csproj",
-              "RelativeToolTip": "Mapper\\Mapper.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-17T01:36:34.827Z",
+              "DocumentIndex": 7,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Libro.cs",
+              "RelativeDocumentMoniker": "Entity\\Libro.cs",
+              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Libro.cs",
+              "RelativeToolTip": "Entity\\Libro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T21:46:26.142Z",
               "EditorCaption": ""
             },
             {
@@ -216,8 +217,7 @@
               "RelativeToolTip": "UI\\Libros.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T16:01:20.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T16:01:20.153Z"
             },
             {
               "$type": "Document",
@@ -241,8 +241,7 @@
               "RelativeToolTip": "UI\\Alumnos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T15:48:12.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T15:48:12.365Z"
             }
           ]
         }
