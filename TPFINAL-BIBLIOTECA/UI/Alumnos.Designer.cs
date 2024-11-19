@@ -87,6 +87,7 @@
             btnConfirmarCambiosAlumno.TabIndex = 12;
             btnConfirmarCambiosAlumno.Text = "Confirmar cambios";
             btnConfirmarCambiosAlumno.UseVisualStyleBackColor = false;
+            btnConfirmarCambiosAlumno.Click += btnConfirmarCambiosAlumno_Click;
             // 
             // btnAgregarAListaAluumno
             // 
@@ -97,6 +98,7 @@
             btnAgregarAListaAluumno.TabIndex = 11;
             btnAgregarAListaAluumno.Text = "Agregar a la lista";
             btnAgregarAListaAluumno.UseVisualStyleBackColor = false;
+            btnAgregarAListaAluumno.Click += btnAgregarAListaAluumno_Click;
             // 
             // btnCargarUnAlumno
             // 
@@ -107,6 +109,7 @@
             btnCargarUnAlumno.TabIndex = 10;
             btnCargarUnAlumno.Text = "Cargar un alumno";
             btnCargarUnAlumno.UseVisualStyleBackColor = false;
+            btnCargarUnAlumno.Click += btnCargarUnAlumno_Click;
             // 
             // txtEmailAlumno
             // 
@@ -212,6 +215,7 @@
             btnBajaAlumno.Text = "Dar de baja alumno";
             btnBajaAlumno.TextAlign = ContentAlignment.BottomCenter;
             btnBajaAlumno.UseVisualStyleBackColor = false;
+            btnBajaAlumno.Click += btnBajaAlumno_Click;
             // 
             // txtDniBajaAlumno
             // 
@@ -239,6 +243,7 @@
             dgvAlumnos.Name = "dgvAlumnos";
             dgvAlumnos.Size = new Size(516, 376);
             dgvAlumnos.TabIndex = 2;
+            dgvAlumnos.CellContentClick += dgvAlumnos_CellContentClick;
             // 
             // btnMain
             // 

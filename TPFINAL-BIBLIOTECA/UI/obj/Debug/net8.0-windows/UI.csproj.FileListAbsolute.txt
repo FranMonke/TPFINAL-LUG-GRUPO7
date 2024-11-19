@@ -29,3 +29,46 @@ C:\Users\Fran Mönke\Documents\Fran\UAI\4to Cuatri\LUG\TP FINAL\TPFINAL-BIBLIOTE
 C:\Users\Fran Mönke\Documents\Fran\UAI\4to Cuatri\LUG\TP FINAL\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.genruntimeconfig.cache
 C:\Users\Fran Mönke\Documents\Fran\UAI\4to Cuatri\LUG\TP FINAL\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\ref\UI.dll
 C:\Users\Fran Mönke\Documents\Fran\UAI\4to Cuatri\LUG\TP FINAL\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.Bienvenida.resources
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\UI.exe
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\UI.dll.config
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\UI.deps.json
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\UI.runtimeconfig.json
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\UI.dll
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\UI.pdb
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\BLL.dll
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\DAL.dll
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\Entity.dll
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\Mapper.dll
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\BLL.pdb
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\Entity.pdb
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\DAL.pdb
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\Mapper.pdb
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.Alumnos.resources
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.Bienvenida.resources
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.Libros.resources
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.Main.resources
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.Prestamos.resources
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.csproj.GenerateResource.cache
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.AssemblyInfo.cs
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.sourcelink.json
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.csproj.Up2Date
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.dll
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\refint\UI.dll
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.pdb
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.genruntimeconfig.cache
+C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\ref\UI.dll
