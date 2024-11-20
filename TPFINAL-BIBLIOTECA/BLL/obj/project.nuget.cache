@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rCsVDUNfRz8=",
+  "dgSpecHash": "+kGuyLKv4fM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\BLL.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

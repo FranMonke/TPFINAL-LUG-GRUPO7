@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|c:\\users\\usuario\\documents\\tp final lug\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\dal\\alumnosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|solutionrelative:dal\\alumnosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|c:\\users\\usuario\\documents\\tp final lug\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\ui\\alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|c:\\users\\usuario\\documents\\tp final lug\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\bll\\alumnosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|solutionrelative:bll\\alumnosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|c:\\users\\usuario\\documents\\tp final lug\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\ui\\alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A693586D-457D-4D3D-ABD3-8322BABAB1E0}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\tp final lug\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\entity\\alumnoss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A693586D-457D-4D3D-ABD3-8322BABAB1E0}|Entity\\Entity.csproj|solutionrelative:entity\\alumnoss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|c:\\users\\usuario\\documents\\tp final lug\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\dal\\alumnosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|solutionrelative:dal\\alumnosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\ui\\alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A693586D-457D-4D3D-ABD3-8322BABAB1E0}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\tp final lug\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\entity\\alumnoss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A693586D-457D-4D3D-ABD3-8322BABAB1E0}|Entity\\Entity.csproj|solutionrelative:entity\\alumnoss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F1B09A6-10FF-4CC8-B7EA-E1F04739E26A}|Mapper\\Mapper.csproj|c:\\users\\usuario\\documents\\tp final lug\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\mapper\\alumnosmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,20 +58,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AlumnosDAO.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\AlumnosDAO.cs",
               "RelativeDocumentMoniker": "DAL\\AlumnosDAO.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\AlumnosDAO.cs",
               "RelativeToolTip": "DAL\\AlumnosDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAIwC4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T19:09:28.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T19:09:28.249Z"
             },
             {
               "$type": "Document",
@@ -87,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Alumnoss.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Alumnoss.cs",
               "RelativeDocumentMoniker": "Entity\\Alumnoss.cs",
@@ -105,19 +104,20 @@
               "RelativeDocumentMoniker": "BLL\\AlumnosBLL.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\AlumnosBLL.cs",
               "RelativeToolTip": "BLL\\AlumnosBLL.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAA5wFYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAA1wF4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T19:02:40.544Z"
+              "WhenOpened": "2024-11-17T19:02:40.544Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Alumnos.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Alumnos.cs",
               "RelativeDocumentMoniker": "UI\\Alumnos.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Alumnos.cs",
               "RelativeToolTip": "UI\\Alumnos.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAA1wFYAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAcwD8AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T15:48:12.365Z",
               "EditorCaption": ""
@@ -136,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Alumnos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Alumnos.cs",
               "RelativeDocumentMoniker": "UI\\Alumnos.cs",

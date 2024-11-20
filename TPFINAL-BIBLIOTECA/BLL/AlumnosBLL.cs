@@ -21,18 +21,7 @@ namespace BLL
             {
                 using (TransactionScope trx = new TransactionScope())
                 {
-                    if (alumnos.Dni.ToString().Length < 8)
-                    {
-                        throw new Exception("El DNI debe tener al menos 8 dígitos.");
-                    }
-                    if (!alumnos.Email.Contains("@"))
-                    {
-                        throw new Exception("El email debe contener un '@'.");
-                    }
-                    if (alumnos.NombreCompleto.Length <= 4)
-                    {
-                        throw new Exception("El nombre completo debe tener más de 4 caracteres.");
-                    }
+                    validaciones(alumnos);
                     //Todas las validaciones...
                     alumnos.FechaRegistro= DateTime.Now;
                     alumnosDao.CargarAlumnos(alumnos);
@@ -43,6 +32,25 @@ namespace BLL
             catch (Exception ex)
             {
                 throw;
+            }
+        }
+        private static void validaciones(Alumnoss alumnos)
+        {
+            if (alumnos.Dni.ToString().Length < 8)
+            {
+                throw new Exception("El DNI debe tener al menos 8 dígitos.");
+            }
+            if (alumnos.Telefono.Length < 8)
+            {
+                throw new Exception("El Telefono debe tener al menos 8 dígitos.");
+            }
+            if (!alumnos.Email.Contains("@"))
+            {
+                throw new Exception("El email debe contener un '@'.");
+            }
+            if (alumnos.NombreCompleto.Length <= 4)
+            {
+                throw new Exception("El nombre completo debe tener más de 4 caracteres.");
             }
         }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\DAL.csproj": {}
+    "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\DAL.csproj": {
+    "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Entity.csproj"
+              "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Entity.csproj"
               },
-              "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\Mapper.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\Mapper.csproj"
+              "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\Mapper.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\Mapper.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Entity.csproj": {
+    "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -151,14 +151,14 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\Mapper.csproj": {
+    "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\Mapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\Mapper.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\Mapper.csproj",
         "projectName": "Mapper",
-        "projectPath": "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\Mapper.csproj",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\Mapper.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -179,8 +179,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Entity.csproj"
+              "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Entity.csproj"
               }
             }
           }
