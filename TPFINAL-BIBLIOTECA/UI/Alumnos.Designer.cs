@@ -243,7 +243,6 @@
             dgvAlumnos.Name = "dgvAlumnos";
             dgvAlumnos.Size = new Size(516, 376);
             dgvAlumnos.TabIndex = 2;
-            dgvAlumnos.CellContentClick += dgvAlumnos_CellContentClick;
             // 
             // btnMain
             // 

@@ -1,53 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\",
+  "WorkspaceRootPath": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|c:\\users\\usuario\\onedrive - universidad abierta interamericana\\desktop\\tp final lug\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\ui\\alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|c:\\users\\fran m\u00F6nke\\desktop\\pruebas tp final lug\\dev_agostina\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\ui\\alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A693586D-457D-4D3D-ABD3-8322BABAB1E0}|Entity\\Entity.csproj|c:\\users\\usuario\\onedrive - universidad abierta interamericana\\desktop\\tp final lug\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\entity\\alumnoss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A693586D-457D-4D3D-ABD3-8322BABAB1E0}|Entity\\Entity.csproj|solutionrelative:entity\\alumnoss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|c:\\users\\usuario\\onedrive - universidad abierta interamericana\\desktop\\tp final lug\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\bll\\alumnosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|solutionrelative:bll\\alumnosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|c:\\users\\usuario\\onedrive - universidad abierta interamericana\\desktop\\tp final lug\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\dal\\alumnosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|solutionrelative:dal\\alumnosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\ui\\alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\ui\\alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F1B09A6-10FF-4CC8-B7EA-E1F04739E26A}|Mapper\\Mapper.csproj|c:\\users\\usuario\\onedrive - universidad abierta interamericana\\desktop\\tp final lug\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\mapper\\alumnosmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F1B09A6-10FF-4CC8-B7EA-E1F04739E26A}|Mapper\\Mapper.csproj|solutionrelative:mapper\\alumnosmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|c:\\users\\fran m\u00F6nke\\desktop\\pruebas tp final lug\\dev_agostina\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\bll\\alumnosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|solutionrelative:bll\\alumnosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|c:\\users\\usuario\\onedrive - universidad abierta interamericana\\desktop\\tp final lug\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\dal\\dbconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|solutionrelative:dal\\dbconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A693586D-457D-4D3D-ABD3-8322BABAB1E0}|Entity\\Entity.csproj|c:\\users\\fran m\u00F6nke\\desktop\\pruebas tp final lug\\dev_agostina\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\entity\\alumnoss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A693586D-457D-4D3D-ABD3-8322BABAB1E0}|Entity\\Entity.csproj|solutionrelative:entity\\alumnoss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|c:\\users\\usuario\\onedrive - universidad abierta interamericana\\desktop\\tp final lug\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\ui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|c:\\users\\fran m\u00F6nke\\desktop\\pruebas tp final lug\\dev_agostina\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\ui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|c:\\users\\usuario\\onedrive - universidad abierta interamericana\\desktop\\tp final lug\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\ui\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|c:\\users\\fran m\u00F6nke\\desktop\\pruebas tp final lug\\dev_agostina\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\dal\\alumnosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|solutionrelative:dal\\alumnosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F1B09A6-10FF-4CC8-B7EA-E1F04739E26A}|Mapper\\Mapper.csproj|c:\\users\\fran m\u00F6nke\\desktop\\pruebas tp final lug\\dev_agostina\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\mapper\\alumnosmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1B09A6-10FF-4CC8-B7EA-E1F04739E26A}|Mapper\\Mapper.csproj|solutionrelative:mapper\\alumnosmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|c:\\users\\fran m\u00F6nke\\desktop\\pruebas tp final lug\\dev_agostina\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\dal\\dbconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|solutionrelative:dal\\dbconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|c:\\users\\fran m\u00F6nke\\desktop\\pruebas tp final lug\\dev_agostina\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\ui\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\ui\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\ui\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|c:\\users\\usuario\\onedrive - universidad abierta interamericana\\desktop\\tp final lug\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\ui\\libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|c:\\users\\fran m\u00F6nke\\desktop\\pruebas tp final lug\\dev_agostina\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\ui\\libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\ui\\libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\ui\\libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -58,15 +58,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AlumnosDAO.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\AlumnosDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\AlumnosDAO.cs",
               "RelativeDocumentMoniker": "DAL\\AlumnosDAO.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\AlumnosDAO.cs",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\AlumnosDAO.cs",
               "RelativeToolTip": "DAL\\AlumnosDAO.cs",
               "ViewState": "AgIAAGUAAAAAAAAAAAAIwC4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -74,11 +78,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AlumnosMapper.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\AlumnosMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\AlumnosMapper.cs",
               "RelativeDocumentMoniker": "Mapper\\AlumnosMapper.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\AlumnosMapper.cs",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\AlumnosMapper.cs",
               "RelativeToolTip": "Mapper\\AlumnosMapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -86,49 +90,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Alumnoss.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Alumnoss.cs",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Alumnoss.cs",
               "RelativeDocumentMoniker": "Entity\\Alumnoss.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Alumnoss.cs",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Alumnoss.cs",
               "RelativeToolTip": "Entity\\Alumnoss.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T19:03:40.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T19:03:40.807Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "AlumnosBLL.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\AlumnosBLL.cs",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\AlumnosBLL.cs",
               "RelativeDocumentMoniker": "BLL\\AlumnosBLL.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\AlumnosBLL.cs",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\AlumnosBLL.cs",
               "RelativeToolTip": "BLL\\AlumnosBLL.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAA1wF4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T19:02:40.544Z"
+              "WhenOpened": "2024-11-17T19:02:40.544Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Alumnos.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Alumnos.cs",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Alumnos.cs",
               "RelativeDocumentMoniker": "UI\\Alumnos.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Alumnos.cs",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Alumnos.cs",
               "RelativeToolTip": "UI\\Alumnos.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAkwD8AAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAswGsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T15:48:12.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DbConfigurations.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\DbConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\DbConfigurations.cs",
               "RelativeDocumentMoniker": "DAL\\DbConfigurations.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\DbConfigurations.cs",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\DbConfigurations.cs",
               "RelativeToolTip": "DAL\\DbConfigurations.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -136,24 +140,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Alumnos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Alumnos.cs",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Alumnos.cs",
               "RelativeDocumentMoniker": "UI\\Alumnos.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Alumnos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Alumnos.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Alumnos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\Alumnos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T01:59:40.668Z"
+              "WhenOpened": "2024-11-14T01:59:40.668Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\App.config",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\App.config",
               "RelativeDocumentMoniker": "UI\\App.config",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\App.config",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\App.config",
               "RelativeToolTip": "UI\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAACNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-11-17T16:50:02.028Z"
             },
@@ -161,10 +166,10 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Libros.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Libros.cs",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Libros.cs",
               "RelativeDocumentMoniker": "UI\\Libros.cs",
-              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-BIBLIOTECA\\UI\\Libros.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-BIBLIOTECA\\UI\\Libros.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Libros.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\Libros.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T02:00:29.683Z"
             },
@@ -172,9 +177,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Libros.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Libros.cs",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Libros.cs",
               "RelativeDocumentMoniker": "UI\\Libros.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Libros.cs",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Libros.cs",
               "RelativeToolTip": "UI\\Libros.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -184,10 +189,10 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Prestamos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Prestamos.cs",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Prestamos.cs",
               "RelativeDocumentMoniker": "UI\\Prestamos.cs",
-              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-BIBLIOTECA\\UI\\Prestamos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-BIBLIOTECA\\UI\\Prestamos.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Prestamos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\Prestamos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T02:01:06.466Z"
             },
@@ -195,9 +200,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Prestamos.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Prestamos.cs",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Prestamos.cs",
               "RelativeDocumentMoniker": "UI\\Prestamos.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\Desktop\\tp final lug\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Prestamos.cs",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Prestamos.cs",
               "RelativeToolTip": "UI\\Prestamos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

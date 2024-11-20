@@ -31,12 +31,14 @@ namespace UI
 
             try
             {
-                validacionentradascompletas();
-                Alumnoss alumnos = LECTURA();
-                alumnosBLL.CargarAlumnos(alumnos);
-                ActualizarDgv();
-                MessageBox.Show("Alumno cargado correctamente");
-                LimpiarTextBoxes();
+                if (validacionentradascompletas())
+                {
+                    Alumnoss alumnos = LECTURA();
+                    alumnosBLL.CargarAlumnos(alumnos);
+                    ActualizarDgv();
+                    MessageBox.Show("Alumno cargado correctamente");
+                    LimpiarTextBoxes();
+                }
             }
             catch (Exception ex)
             {
@@ -54,11 +56,6 @@ namespace UI
             alumnos.Telefono = txtTelefonoAlumno.Text;
             alumnos.Email = txtEmailAlumno.Text;
             return alumnos;
-        }
-
-        private void dgvAlumnos_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
 
         private void btnAgregarAListaAluumno_Click(object sender, EventArgs e)
@@ -103,45 +100,57 @@ namespace UI
                     MessageBox.Show("El campo DNI no puede estar vacío.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                 }
-                alumnosBLL.DeleteById(Convert.ToInt32(txtDniBajaAlumno.Text));
-                ActualizarDgv();
-                MessageBox.Show("Alumno eliminado correctamente");
-                LimpiarTextBoxes();
+                else
+                {
+                    alumnosBLL.DeleteById(Convert.ToInt32(txtDniBajaAlumno.Text));
+                    ActualizarDgv();
+                    MessageBox.Show("Alumno eliminado correctamente");
+                    LimpiarTextBoxes();
+                }
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
         }
-        private void validacionentradascompletas()
+        private bool validacionentradascompletas()
         {
             if (string.IsNullOrWhiteSpace(txtDniAltaAlumno.Text))
             {
                 MessageBox.Show("El campo DNI no puede estar vacío.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                
-            }
-
-            if (string.IsNullOrWhiteSpace(txtEmailAlumno.Text))
-            {
-                MessageBox.Show("El campo Email no puede estar vacío.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
                 
             }
 
             if (string.IsNullOrWhiteSpace(txtNombreAlumno.Text))
             {
                 MessageBox.Show("El campo Nombre Completo no puede estar vacío.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
                 
             }
-            if (string.IsNullOrWhiteSpace(txtTelefonoAlumno.Text))
-            {
-                MessageBox.Show("El campo Telefono no puede estar vacío.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                
-            }
+
             if (string.IsNullOrWhiteSpace(txtDireccionAlumno.Text))
             {
                 MessageBox.Show("El campo Direccion no puede estar vacío.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
                 
             }
+
+            if (string.IsNullOrWhiteSpace(txtTelefonoAlumno.Text))
+            {
+                MessageBox.Show("El campo Telefono no puede estar vacío.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+                
+            }
+
+            if (string.IsNullOrWhiteSpace(txtEmailAlumno.Text))
+            {
+                MessageBox.Show("El campo Email no puede estar vacío.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+                
+            }
+
+            return true;
         }
         private void LimpiarTextBoxes()
         {

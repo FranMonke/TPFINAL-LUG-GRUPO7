@@ -21,3 +21,15 @@ C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\En
 C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\refint\Entity.dll
 C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\Entity.pdb
 C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\ref\Entity.dll
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\bin\Debug\net8.0\Entity.deps.json
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\bin\Debug\net8.0\Entity.dll
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\bin\Debug\net8.0\Entity.pdb
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\Entity.AssemblyInfoInputs.cache
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\Entity.AssemblyInfo.cs
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\Entity.csproj.CoreCompileInputs.cache
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\Entity.sourcelink.json
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\Entity.dll
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\refint\Entity.dll
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\Entity.pdb
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\ref\Entity.dll

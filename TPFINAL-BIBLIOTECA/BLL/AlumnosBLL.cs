@@ -40,6 +40,10 @@ namespace BLL
             {
                 throw new Exception("El DNI debe tener al menos 8 dígitos.");
             }
+            if (alumnos.NombreCompleto.Length <= 4)
+            {
+                throw new Exception("El nombre completo debe tener más de 4 caracteres.");
+            }
             if (alumnos.Telefono.Length < 8)
             {
                 throw new Exception("El Telefono debe tener al menos 8 dígitos.");
@@ -47,10 +51,6 @@ namespace BLL
             if (!alumnos.Email.Contains("@"))
             {
                 throw new Exception("El email debe contener un '@'.");
-            }
-            if (alumnos.NombreCompleto.Length <= 4)
-            {
-                throw new Exception("El nombre completo debe tener más de 4 caracteres.");
             }
         }
 

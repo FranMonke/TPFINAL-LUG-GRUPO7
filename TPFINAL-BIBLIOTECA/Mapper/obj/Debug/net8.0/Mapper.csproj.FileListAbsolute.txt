@@ -29,3 +29,19 @@ C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Ma
 C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Mapper\obj\Debug\net8.0\refint\Mapper.dll
 C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Mapper\obj\Debug\net8.0\Mapper.pdb
 C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Mapper\obj\Debug\net8.0\ref\Mapper.dll
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Mapper\bin\Debug\net8.0\Mapper.deps.json
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Mapper\bin\Debug\net8.0\Mapper.dll
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Mapper\bin\Debug\net8.0\Mapper.pdb
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Mapper\bin\Debug\net8.0\Entity.dll
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Mapper\bin\Debug\net8.0\Entity.pdb
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Mapper\obj\Debug\net8.0\Mapper.csproj.AssemblyReference.cache
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Mapper\obj\Debug\net8.0\Mapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Mapper\obj\Debug\net8.0\Mapper.AssemblyInfoInputs.cache
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Mapper\obj\Debug\net8.0\Mapper.AssemblyInfo.cs
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Mapper\obj\Debug\net8.0\Mapper.csproj.CoreCompileInputs.cache
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Mapper\obj\Debug\net8.0\Mapper.sourcelink.json
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Mapper\obj\Debug\net8.0\Mapper.csproj.Up2Date
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Mapper\obj\Debug\net8.0\Mapper.dll
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Mapper\obj\Debug\net8.0\refint\Mapper.dll
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Mapper\obj\Debug\net8.0\Mapper.pdb
+C:\Users\Fran Mönke\Desktop\pruebas tp final lug\dev_Agostina\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Mapper\obj\Debug\net8.0\ref\Mapper.dll
