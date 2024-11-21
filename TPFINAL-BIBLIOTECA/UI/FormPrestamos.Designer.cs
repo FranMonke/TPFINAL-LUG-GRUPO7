@@ -35,9 +35,11 @@
             label2 = new Label();
             label1 = new Label();
             groupBox2 = new GroupBox();
+            btnRestaurar = new Button();
+            btnBuscarDni = new Button();
+            txtDniDevolucion = new TextBox();
             btnDevolucion = new Button();
-            txtAlumnoDevolucion = new TextBox();
-            comboLibroDevolucion = new ComboBox();
+            txtPrestamoDevolucion = new TextBox();
             label4 = new Label();
             label3 = new Label();
             btnMain = new Button();
@@ -72,20 +74,21 @@
             btnPrestamo.TabIndex = 4;
             btnPrestamo.Text = "Realizar prestamo";
             btnPrestamo.UseVisualStyleBackColor = false;
+            btnPrestamo.Click += btnPrestamo_Click;
             // 
             // comboLibroPrestamo
             // 
             comboLibroPrestamo.FormattingEnabled = true;
-            comboLibroPrestamo.Location = new Point(64, 55);
+            comboLibroPrestamo.Location = new Point(82, 55);
             comboLibroPrestamo.Name = "comboLibroPrestamo";
-            comboLibroPrestamo.Size = new Size(130, 25);
+            comboLibroPrestamo.Size = new Size(112, 25);
             comboLibroPrestamo.TabIndex = 3;
             // 
             // txtAlumnoPrestamo
             // 
-            txtAlumnoPrestamo.Location = new Point(64, 24);
+            txtAlumnoPrestamo.Location = new Point(82, 24);
             txtAlumnoPrestamo.Name = "txtAlumnoPrestamo";
-            txtAlumnoPrestamo.Size = new Size(130, 25);
+            txtAlumnoPrestamo.Size = new Size(112, 25);
             txtAlumnoPrestamo.TabIndex = 2;
             // 
             // label2
@@ -102,68 +105,92 @@
             label1.AutoSize = true;
             label1.Location = new Point(6, 27);
             label1.Name = "label1";
-            label1.Size = new Size(52, 17);
+            label1.Size = new Size(78, 17);
             label1.TabIndex = 0;
-            label1.Text = "Alumno";
+            label1.Text = "DNI Alumno";
             // 
             // groupBox2
             // 
+            groupBox2.Controls.Add(btnRestaurar);
+            groupBox2.Controls.Add(btnBuscarDni);
+            groupBox2.Controls.Add(txtDniDevolucion);
             groupBox2.Controls.Add(btnDevolucion);
-            groupBox2.Controls.Add(txtAlumnoDevolucion);
-            groupBox2.Controls.Add(comboLibroDevolucion);
+            groupBox2.Controls.Add(txtPrestamoDevolucion);
             groupBox2.Controls.Add(label4);
             groupBox2.Controls.Add(label3);
             groupBox2.Font = new Font("Microsoft New Tai Lue", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             groupBox2.ForeColor = Color.White;
             groupBox2.Location = new Point(12, 144);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(200, 128);
+            groupBox2.Size = new Size(200, 136);
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
             groupBox2.Text = "Devolucion";
             // 
+            // btnRestaurar
+            // 
+            btnRestaurar.ForeColor = Color.Black;
+            btnRestaurar.Location = new Point(164, 71);
+            btnRestaurar.Name = "btnRestaurar";
+            btnRestaurar.Size = new Size(30, 23);
+            btnRestaurar.TabIndex = 12;
+            btnRestaurar.Text = "↩";
+            btnRestaurar.UseVisualStyleBackColor = true;
+            btnRestaurar.Click += btnRestaurar_Click;
+            // 
+            // btnBuscarDni
+            // 
+            btnBuscarDni.ForeColor = Color.Black;
+            btnBuscarDni.Location = new Point(127, 71);
+            btnBuscarDni.Name = "btnBuscarDni";
+            btnBuscarDni.Size = new Size(31, 23);
+            btnBuscarDni.TabIndex = 11;
+            btnBuscarDni.Text = "🔎";
+            btnBuscarDni.UseVisualStyleBackColor = true;
+            btnBuscarDni.Click += btnBuscarDni_Click;
+            // 
+            // txtDniDevolucion
+            // 
+            txtDniDevolucion.Location = new Point(21, 72);
+            txtDniDevolucion.Name = "txtDniDevolucion";
+            txtDniDevolucion.Size = new Size(100, 25);
+            txtDniDevolucion.TabIndex = 10;
+            // 
             // btnDevolucion
             // 
             btnDevolucion.BackColor = Color.Brown;
-            btnDevolucion.Location = new Point(24, 88);
+            btnDevolucion.Location = new Point(21, 100);
             btnDevolucion.Name = "btnDevolucion";
             btnDevolucion.Size = new Size(149, 30);
             btnDevolucion.TabIndex = 9;
             btnDevolucion.Text = "Confirmar devolucion";
             btnDevolucion.UseVisualStyleBackColor = false;
+            btnDevolucion.Click += btnDevolucion_Click;
             // 
-            // txtAlumnoDevolucion
+            // txtPrestamoDevolucion
             // 
-            txtAlumnoDevolucion.Location = new Point(64, 24);
-            txtAlumnoDevolucion.Name = "txtAlumnoDevolucion";
-            txtAlumnoDevolucion.Size = new Size(130, 25);
-            txtAlumnoDevolucion.TabIndex = 7;
-            // 
-            // comboLibroDevolucion
-            // 
-            comboLibroDevolucion.FormattingEnabled = true;
-            comboLibroDevolucion.Location = new Point(64, 55);
-            comboLibroDevolucion.Name = "comboLibroDevolucion";
-            comboLibroDevolucion.Size = new Size(130, 25);
-            comboLibroDevolucion.TabIndex = 8;
+            txtPrestamoDevolucion.Location = new Point(91, 24);
+            txtPrestamoDevolucion.Name = "txtPrestamoDevolucion";
+            txtPrestamoDevolucion.Size = new Size(103, 25);
+            txtPrestamoDevolucion.TabIndex = 7;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Location = new Point(6, 27);
             label4.Name = "label4";
-            label4.Size = new Size(52, 17);
+            label4.Size = new Size(79, 17);
             label4.TabIndex = 5;
-            label4.Text = "Alumno";
+            label4.Text = "ID Préstamo";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(6, 55);
+            label3.Location = new Point(21, 52);
             label3.Name = "label3";
-            label3.Size = new Size(38, 17);
+            label3.Size = new Size(145, 17);
             label3.TabIndex = 6;
-            label3.Text = "Libro";
+            label3.Text = "Buscar por DNI Alumno";
             // 
             // btnMain
             // 
@@ -219,11 +246,13 @@
         private Button btnPrestamo;
         private ComboBox comboLibroPrestamo;
         private Button btnDevolucion;
-        private TextBox txtAlumnoDevolucion;
-        private ComboBox comboLibroDevolucion;
+        private TextBox txtPrestamoDevolucion;
         private Label label4;
         private Label label3;
         private Button btnMain;
         private DataGridView dataGridView1;
+        private Button btnBuscarDni;
+        private TextBox txtDniDevolucion;
+        private Button btnRestaurar;
     }
 }

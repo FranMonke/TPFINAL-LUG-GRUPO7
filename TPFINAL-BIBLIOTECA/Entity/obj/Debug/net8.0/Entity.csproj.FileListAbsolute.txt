@@ -9,6 +9,7 @@ C:\Users\Fran Mönke\Documents\Fran\UAI\4to Cuatri\LUG\TP FINAL\TPFINAL-BIBLIOTE
 C:\Users\Fran Mönke\Documents\Fran\UAI\4to Cuatri\LUG\TP FINAL\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\refint\Entity.dll
 C:\Users\Fran Mönke\Documents\Fran\UAI\4to Cuatri\LUG\TP FINAL\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\Entity.pdb
 C:\Users\Fran Mönke\Documents\Fran\UAI\4to Cuatri\LUG\TP FINAL\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\ref\Entity.dll
+<<<<<<< HEAD
 C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\bin\Debug\net8.0\Entity.deps.json
 C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\bin\Debug\net8.0\Entity.dll
 C:\Users\Usuario\Documents\tp final lug\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\bin\Debug\net8.0\Entity.pdb
@@ -45,3 +46,18 @@ C:\Users\Fran Mönke\Documents\Fran\UAI\4to Cuatri\LUG\TP FINAL\TPFINAL-LUG-GRUP
 C:\Users\Fran Mönke\Documents\Fran\UAI\4to Cuatri\LUG\TP FINAL\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\refint\Entity.dll
 C:\Users\Fran Mönke\Documents\Fran\UAI\4to Cuatri\LUG\TP FINAL\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\Entity.pdb
 C:\Users\Fran Mönke\Documents\Fran\UAI\4to Cuatri\LUG\TP FINAL\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\ref\Entity.dll
+=======
+C:\Users\Rompiente\Documents\MEGA\UAI\Analista Prog\2do año\LUG\TP\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\bin\Debug\net8.0\Entity.deps.json
+C:\Users\Rompiente\Documents\MEGA\UAI\Analista Prog\2do año\LUG\TP\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\bin\Debug\net8.0\Entity.dll
+C:\Users\Rompiente\Documents\MEGA\UAI\Analista Prog\2do año\LUG\TP\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\bin\Debug\net8.0\Entity.pdb
+C:\Users\Rompiente\Documents\MEGA\UAI\Analista Prog\2do año\LUG\TP\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rompiente\Documents\MEGA\UAI\Analista Prog\2do año\LUG\TP\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\Entity.AssemblyInfoInputs.cache
+C:\Users\Rompiente\Documents\MEGA\UAI\Analista Prog\2do año\LUG\TP\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\Entity.AssemblyInfo.cs
+C:\Users\Rompiente\Documents\MEGA\UAI\Analista Prog\2do año\LUG\TP\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\Entity.csproj.CoreCompileInputs.cache
+C:\Users\Rompiente\Documents\MEGA\UAI\Analista Prog\2do año\LUG\TP\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\Entity.sourcelink.json
+C:\Users\Rompiente\Documents\MEGA\UAI\Analista Prog\2do año\LUG\TP\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\Entity.dll
+C:\Users\Rompiente\Documents\MEGA\UAI\Analista Prog\2do año\LUG\TP\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\refint\Entity.dll
+C:\Users\Rompiente\Documents\MEGA\UAI\Analista Prog\2do año\LUG\TP\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\Entity.pdb
+C:\Users\Rompiente\Documents\MEGA\UAI\Analista Prog\2do año\LUG\TP\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\ref\Entity.dll
+C:\Users\Rompiente\Documents\MEGA\UAI\Analista Prog\2do año\LUG\TP\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\Entity\obj\Debug\net8.0\Entity.csproj.AssemblyReference.cache
+>>>>>>> dev_Gabriel
