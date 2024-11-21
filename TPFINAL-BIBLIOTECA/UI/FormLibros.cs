@@ -1,8 +1,8 @@
 ﻿namespace UI
 {
-    public partial class Libros : Form
+    public partial class FormLibros : Form
     {
-        public Libros()
+        public FormLibros()
         {
             InitializeComponent();
         }

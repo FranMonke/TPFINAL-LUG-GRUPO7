@@ -1,9 +1,9 @@
 ﻿namespace UI
 {
-    public partial class Bienvenida : Form
+    public partial class FormBienvenida : Form
     {
         private System.Windows.Forms.Timer timer;
-        public Bienvenida()
+        public FormBienvenida()
         {
             InitializeComponent();
 

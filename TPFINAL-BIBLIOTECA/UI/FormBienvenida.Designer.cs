@@ -1,6 +1,6 @@
 ﻿namespace UI
 {
-    partial class Bienvenida
+    partial class FormBienvenida
     {
         /// <summary>
         /// Required designer variable.

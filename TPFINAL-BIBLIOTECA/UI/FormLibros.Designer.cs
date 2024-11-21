@@ -1,6 +1,6 @@
 ﻿namespace UI
 {
-    partial class Libros
+    partial class FormLibros
     {
         /// <summary>
         /// Required designer variable.
@@ -42,9 +42,11 @@
             label1 = new Label();
             gbBajaLibro = new GroupBox();
             btnBajaLibro = new Button();
-            txtIdLibro = new TextBox();
+            txtBajaIdLibro = new TextBox();
             label6 = new Label();
             gbModificarStock = new GroupBox();
+            label7 = new Label();
+            txtModificarIdLibro = new TextBox();
             btnModificarStockLibro = new Button();
             txtModificarCantidadLibro = new TextBox();
             rbDisminuir = new RadioButton();
@@ -180,7 +182,7 @@
             // gbBajaLibro
             // 
             gbBajaLibro.Controls.Add(btnBajaLibro);
-            gbBajaLibro.Controls.Add(txtIdLibro);
+            gbBajaLibro.Controls.Add(txtBajaIdLibro);
             gbBajaLibro.Controls.Add(label6);
             gbBajaLibro.Font = new Font("Microsoft New Tai Lue", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             gbBajaLibro.ForeColor = Color.White;
@@ -202,24 +204,26 @@
             btnBajaLibro.TextAlign = ContentAlignment.BottomCenter;
             btnBajaLibro.UseVisualStyleBackColor = false;
             // 
-            // txtIdLibro
+            // txtBajaIdLibro
             // 
-            txtIdLibro.Location = new Point(62, 24);
-            txtIdLibro.Name = "txtIdLibro";
-            txtIdLibro.Size = new Size(121, 25);
-            txtIdLibro.TabIndex = 1;
+            txtBajaIdLibro.Location = new Point(72, 24);
+            txtBajaIdLibro.Name = "txtBajaIdLibro";
+            txtBajaIdLibro.Size = new Size(111, 25);
+            txtBajaIdLibro.TabIndex = 1;
             // 
             // label6
             // 
             label6.AutoSize = true;
             label6.Location = new Point(6, 27);
             label6.Name = "label6";
-            label6.Size = new Size(20, 17);
+            label6.Size = new Size(54, 17);
             label6.TabIndex = 0;
-            label6.Text = "ID";
+            label6.Text = "ID Libro";
             // 
             // gbModificarStock
             // 
+            gbModificarStock.Controls.Add(label7);
+            gbModificarStock.Controls.Add(txtModificarIdLibro);
             gbModificarStock.Controls.Add(btnModificarStockLibro);
             gbModificarStock.Controls.Add(txtModificarCantidadLibro);
             gbModificarStock.Controls.Add(rbDisminuir);
@@ -229,15 +233,31 @@
             gbModificarStock.ForeColor = Color.White;
             gbModificarStock.Location = new Point(12, 375);
             gbModificarStock.Name = "gbModificarStock";
-            gbModificarStock.Size = new Size(189, 125);
+            gbModificarStock.Size = new Size(189, 156);
             gbModificarStock.TabIndex = 2;
             gbModificarStock.TabStop = false;
             gbModificarStock.Text = "Modificar stock";
             // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(6, 27);
+            label7.Name = "label7";
+            label7.Size = new Size(54, 17);
+            label7.TabIndex = 15;
+            label7.Text = "ID Libro";
+            // 
+            // txtModificarIdLibro
+            // 
+            txtModificarIdLibro.Location = new Point(72, 24);
+            txtModificarIdLibro.Name = "txtModificarIdLibro";
+            txtModificarIdLibro.Size = new Size(111, 25);
+            txtModificarIdLibro.TabIndex = 14;
+            // 
             // btnModificarStockLibro
             // 
             btnModificarStockLibro.BackColor = Color.Brown;
-            btnModificarStockLibro.Location = new Point(26, 90);
+            btnModificarStockLibro.Location = new Point(26, 119);
             btnModificarStockLibro.Name = "btnModificarStockLibro";
             btnModificarStockLibro.Size = new Size(137, 29);
             btnModificarStockLibro.TabIndex = 13;
@@ -247,7 +267,7 @@
             // 
             // txtModificarCantidadLibro
             // 
-            txtModificarCantidadLibro.Location = new Point(72, 24);
+            txtModificarCantidadLibro.Location = new Point(72, 61);
             txtModificarCantidadLibro.Name = "txtModificarCantidadLibro";
             txtModificarCantidadLibro.Size = new Size(111, 25);
             txtModificarCantidadLibro.TabIndex = 6;
@@ -255,7 +275,7 @@
             // rbDisminuir
             // 
             rbDisminuir.AutoSize = true;
-            rbDisminuir.Location = new Point(94, 63);
+            rbDisminuir.Location = new Point(100, 92);
             rbDisminuir.Name = "rbDisminuir";
             rbDisminuir.Size = new Size(80, 21);
             rbDisminuir.TabIndex = 5;
@@ -266,7 +286,7 @@
             // rbAumentar
             // 
             rbAumentar.AutoSize = true;
-            rbAumentar.Location = new Point(6, 63);
+            rbAumentar.Location = new Point(12, 92);
             rbAumentar.Name = "rbAumentar";
             rbAumentar.Size = new Size(82, 21);
             rbAumentar.TabIndex = 4;
@@ -277,7 +297,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(6, 32);
+            label4.Location = new Point(6, 64);
             label4.Name = "label4";
             label4.Size = new Size(60, 17);
             label4.TabIndex = 3;
@@ -290,7 +310,7 @@
             dgvLibros.GridColor = Color.White;
             dgvLibros.Location = new Point(207, 12);
             dgvLibros.Name = "dgvLibros";
-            dgvLibros.Size = new Size(581, 524);
+            dgvLibros.Size = new Size(581, 554);
             dgvLibros.TabIndex = 3;
             // 
             // btnMain
@@ -298,7 +318,7 @@
             btnMain.BackColor = Color.Brown;
             btnMain.Font = new Font("Microsoft New Tai Lue", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnMain.ForeColor = Color.White;
-            btnMain.Location = new Point(38, 507);
+            btnMain.Location = new Point(38, 537);
             btnMain.Name = "btnMain";
             btnMain.Size = new Size(137, 29);
             btnMain.TabIndex = 13;
@@ -307,18 +327,18 @@
             btnMain.UseVisualStyleBackColor = false;
             btnMain.Click += btnMain_Click;
             // 
-            // Libros
+            // FormLibros
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Maroon;
-            ClientSize = new Size(800, 548);
+            ClientSize = new Size(800, 574);
             Controls.Add(btnMain);
             Controls.Add(dgvLibros);
             Controls.Add(gbModificarStock);
             Controls.Add(gbBajaLibro);
             Controls.Add(gbAltaLibro);
-            Name = "Libros";
+            Name = "FormLibros";
             Text = "Gestor de Libros";
             gbAltaLibro.ResumeLayout(false);
             gbAltaLibro.PerformLayout();
@@ -349,12 +369,14 @@
         private Button btnAgregarAListaLibro;
         private Label label6;
         private DataGridView dgvLibros;
-        private TextBox txtIdLibro;
+        private TextBox txtBajaIdLibro;
         private Button btnBajaLibro;
         private Button btnModificarStockLibro;
         private TextBox txtModificarCantidadLibro;
         private RadioButton rbDisminuir;
         private RadioButton rbAumentar;
         private Button btnMain;
+        private Label label7;
+        private TextBox txtModificarIdLibro;
     }
 }

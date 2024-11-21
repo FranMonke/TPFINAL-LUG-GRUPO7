@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EH8VsatxqeA=",
+  "dgSpecHash": "21ImNXhprNQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Fran Mönke\\Desktop\\pruebas tp final lug\\dev_Agostina\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\UI.csproj",
+  "projectFilePath": "C:\\Users\\Fran Mönke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fran Mönke\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Fran Mönke\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

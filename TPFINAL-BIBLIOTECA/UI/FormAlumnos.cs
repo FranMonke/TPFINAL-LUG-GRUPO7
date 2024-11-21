@@ -5,11 +5,11 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace UI
 {
-    public partial class Alumnos : Form
+    public partial class FormAlumnos : Form
     {
         AlumnosBLL alumnosBLL = new AlumnosBLL();
         private List<Alumnoss> borradorAlumnoss = new List<Alumnoss>();
-        public Alumnos()
+        public FormAlumnos()
         {
             InitializeComponent();
             ActualizarDgv();
