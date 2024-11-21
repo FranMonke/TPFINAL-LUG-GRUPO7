@@ -32,8 +32,16 @@ namespace BLL
             {
                 using (TransactionScope trx = new TransactionScope())
                 {
-                    //validar que el dni exista en la BD
-                    //validar que cantidad_disponible sea >0
+                    bool dniExiste = prestamoDAO.ExisteAlumno(prestamo.DniAlumno);
+                    if (!dniExiste)
+                    {
+                        throw new Exception("El DNI ingresado no existe en el sistema.");
+                    }
+                    bool libroDisponible = prestamoDAO.HayStockDisponible(prestamo.IdLibro);
+                    if (!libroDisponible)
+                    {
+                        throw new Exception("No hay stock disponible del libro seleccionado.");
+                    }
 
                     prestamoDAO.CargarPrestamo(prestamo);
                     trx.Complete();
@@ -51,7 +59,15 @@ namespace BLL
             {
                 using (TransactionScope trx = new TransactionScope())
                 {
-                    //validar que el id del prestamo exista en la BD
+                    bool prestamoExiste = prestamoDAO.ExistePrestamo(prestamo.IdPrestamo);
+                    if (!prestamoExiste)
+                    {
+                        throw new Exception("El préstamo no existe en el sistema.");
+                    }
+                    if (prestamoDAO.PrestamoYaDevuelto(prestamo.IdPrestamo))
+                    {
+                        throw new Exception("El libro ya ha sido devuelto.");
+                    }
 
                     prestamoDAO.CargarDevolucion(prestamo);
                     trx.Complete();

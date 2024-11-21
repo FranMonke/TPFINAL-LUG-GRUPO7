@@ -43,7 +43,93 @@ namespace DAL
             }
         }
 
-        public void CargarPrestamo(Prestamo prestamo)
+        public bool ExisteAlumno(int dniAlumno)
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(DbConfigurations.getDbName()))
+                {
+                    conn.Open();
+                    string query = "SELECT COUNT(*) FROM Alumnos WHERE DNI_ALUMNO = @dni";
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@dni", dniAlumno);
+                        return (int)cmd.ExecuteScalar() > 0;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("El DNI del alumno no existe en el sistema.", ex);
+            }
+        }
+
+        public bool HayStockDisponible(int idLibro)
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(DbConfigurations.getDbName()))
+                {
+                    conn.Open();
+                    string query = "SELECT CANTIDAD_DISPONIBLE FROM Libros WHERE ID_LIBRO = @idLibro";
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@idLibro", idLibro);
+                        int stock = (int)cmd.ExecuteScalar();
+                        return stock > 0;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("No hay stock disponible del libro seleccionado.", ex);
+            }
+        }
+
+        public bool ExistePrestamo(int idPrestamo)
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(DbConfigurations.getDbName()))
+                {
+                    conn.Open();
+                    string query = "SELECT COUNT(*) FROM Prestamos WHERE ID_PRESTAMO = @idPrestamo";
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@idPrestamo", idPrestamo);
+                        return (int)cmd.ExecuteScalar() > 0;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al validar el ID del préstamo.", ex);
+            }
+        }
+
+        public bool PrestamoYaDevuelto(int idPrestamo)
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(DbConfigurations.getDbName()))
+                {
+                    conn.Open();
+                    string query = "SELECT FECHA_DEVOLUCION FROM Prestamos WHERE ID_PRESTAMO = @idPrestamo";
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@idPrestamo", idPrestamo);
+                        object resultado = cmd.ExecuteScalar();
+
+                        return resultado != DBNull.Value;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al validar si el préstamo ya fue devuelto: " + ex.Message);
+            }
+        }
+            public void CargarPrestamo(Prestamo prestamo)
         {
             try
             {
@@ -60,6 +146,7 @@ namespace DAL
                         cmd.ExecuteNonQuery();
 
                     }
+
                     string queryActualizarCantidad = "UPDATE Libros SET CANTIDAD_DISPONIBLE = CANTIDAD_DISPONIBLE - 1 WHERE ID_LIBRO = @idlibro";
                     using (SqlCommand cmdActualizarCantidad = new SqlCommand(queryActualizarCantidad, conn))
                     {
@@ -88,6 +175,20 @@ namespace DAL
                         cmd.Parameters.AddWithValue("@idPrestamo", prestamo.IdPrestamo);
                         cmd.Parameters.AddWithValue("@fechaDevolucion", DateTime.Now);
                         cmd.ExecuteNonQuery();
+                    }
+
+                    string queryObtenerIdLibro = "SELECT ID_LIBRO FROM Prestamos WHERE ID_PRESTAMO = @idPrestamo";
+                    using (SqlCommand cmdObtenerIdLibro = new SqlCommand(queryObtenerIdLibro, conn))
+                    {
+                        cmdObtenerIdLibro.Parameters.AddWithValue("@idPrestamo", prestamo.IdPrestamo);
+                        prestamo.IdLibro = Convert.ToInt32(cmdObtenerIdLibro.ExecuteScalar());
+                    }
+
+                    string queryActualizarCantidad = "UPDATE Libros SET CANTIDAD_DISPONIBLE = CANTIDAD_DISPONIBLE + 1 WHERE ID_LIBRO = @idlibro";
+                    using (SqlCommand cmdActualizarCantidad = new SqlCommand(queryActualizarCantidad, conn))
+                    {
+                        cmdActualizarCantidad.Parameters.AddWithValue("@idlibro", prestamo.IdLibro);
+                        cmdActualizarCantidad.ExecuteNonQuery();
                     }
                 }
             }

@@ -48,6 +48,17 @@ namespace UI
 
         private void btnPrestamo_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtAlumnoPrestamo.Text))
+            {
+                MessageBox.Show("El campo ''DNI Alumno'' no puede estar vacío.");
+                return;
+            }
+
+            if (!int.TryParse(txtAlumnoPrestamo.Text, out int dniAlumno))
+            {
+                MessageBox.Show("DNI inválido.");
+                return;
+            }
             Prestamo prestamo = GetPrestamoFromForm();
             try
             {
@@ -63,6 +74,16 @@ namespace UI
 
         private void btnDevolucion_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtPrestamoDevolucion.Text))
+            {
+                MessageBox.Show("El campo ''ID Préstamo'' no puede estar vacío.");
+                return;
+            }
+            if (!int.TryParse(txtPrestamoDevolucion.Text, out int idPrestamo))
+            {
+                MessageBox.Show("ID de préstamo inválido.");
+                return;
+            }
             Prestamo prestamo = GetDevolucionFromForm();
             try
             {

@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\tp\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\dal\\librodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|solutionrelative:dal\\librodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\ui\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\tp\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\dal\\prestamodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|solutionrelative:dal\\prestamodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\tp\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\bll\\prestamobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,8 +19,12 @@
       "RelativeMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|solutionrelative:bll\\librobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\tp\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\dal\\prestamodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|solutionrelative:dal\\prestamodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\tp\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\dal\\librodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|solutionrelative:dal\\librodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\ui\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F1B09A6-10FF-4CC8-B7EA-E1F04739E26A}|Mapper\\Mapper.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\tp\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\mapper\\libromapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,17 +66,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "PrestamoDAO.cs",
               "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\PrestamoDAO.cs",
               "RelativeDocumentMoniker": "DAL\\PrestamoDAO.cs",
               "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\PrestamoDAO.cs",
               "RelativeToolTip": "DAL\\PrestamoDAO.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAcwFkAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowLoAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T21:52:36.992Z",
               "EditorCaption": ""
@@ -84,66 +88,50 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Prestamos.cs",
-              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Prestamos.cs",
-              "RelativeDocumentMoniker": "UI\\Prestamos.cs",
-              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Prestamos.cs",
-              "RelativeToolTip": "UI\\Prestamos.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAmwIQAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T16:01:30.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "LibroBusiness.cs",
               "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\LibroBusiness.cs",
               "RelativeDocumentMoniker": "BLL\\LibroBusiness.cs",
               "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\LibroBusiness.cs",
               "RelativeToolTip": "BLL\\LibroBusiness.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T21:40:41.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T21:40:41.078Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PrestamoBusiness.cs",
               "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\PrestamoBusiness.cs",
               "RelativeDocumentMoniker": "BLL\\PrestamoBusiness.cs",
               "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\PrestamoBusiness.cs",
               "RelativeToolTip": "BLL\\PrestamoBusiness.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowEQAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T21:59:01.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T21:59:01.322Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "LibroDAO.cs",
               "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\LibroDAO.cs",
               "RelativeDocumentMoniker": "DAL\\LibroDAO.cs",
               "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\LibroDAO.cs",
               "RelativeToolTip": "DAL\\LibroDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T21:39:00.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T21:39:00.527Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Prestamos.cs [Dise\u00F1o]",
+              "DocumentIndex": 2,
+              "Title": "Prestamos.cs",
               "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Prestamos.cs",
               "RelativeDocumentMoniker": "UI\\Prestamos.cs",
-              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Prestamos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "UI\\Prestamos.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Prestamos.cs",
+              "RelativeToolTip": "UI\\Prestamos.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAtwFMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T04:53:07.827Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-16T16:01:30.188Z"
             },
             {
               "$type": "Document",
@@ -155,8 +143,7 @@
               "RelativeToolTip": "Mapper\\LibroMapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T21:35:38.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T21:35:38.008Z"
             },
             {
               "$type": "Document",
@@ -168,44 +155,7 @@
               "RelativeToolTip": "Entity\\Libro.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T21:46:26.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Main.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Main.cs",
-              "RelativeDocumentMoniker": "UI\\Main.cs",
-              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Main.cs [Dise\u00F1o]",
-              "RelativeToolTip": "UI\\Main.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T01:41:45.03Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Alumnos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Alumnos.cs",
-              "RelativeDocumentMoniker": "UI\\Alumnos.cs",
-              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Alumnos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "UI\\Alumnos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T01:59:40.668Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Libros.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Libros.cs",
-              "RelativeDocumentMoniker": "UI\\Libros.cs",
-              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Libros.cs [Dise\u00F1o]",
-              "RelativeToolTip": "UI\\Libros.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T02:00:29.683Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-17T21:46:26.142Z"
             },
             {
               "$type": "Document",
@@ -221,18 +171,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Bienvenida.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Bienvenida.cs",
-              "RelativeDocumentMoniker": "UI\\Bienvenida.cs",
-              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Bienvenida.cs [Dise\u00F1o]",
-              "RelativeToolTip": "UI\\Bienvenida.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T01:41:38.891Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 13,
               "Title": "Alumnos.cs",
               "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Alumnos.cs",
@@ -242,6 +180,61 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T15:48:12.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Prestamos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Prestamos.cs",
+              "RelativeDocumentMoniker": "UI\\Prestamos.cs",
+              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Prestamos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\Prestamos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T04:53:07.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Main.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Main.cs",
+              "RelativeDocumentMoniker": "UI\\Main.cs",
+              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Main.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\Main.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T01:41:45.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Alumnos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Alumnos.cs",
+              "RelativeDocumentMoniker": "UI\\Alumnos.cs",
+              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Alumnos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\Alumnos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T01:59:40.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Libros.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Libros.cs",
+              "RelativeDocumentMoniker": "UI\\Libros.cs",
+              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Libros.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\Libros.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T02:00:29.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Bienvenida.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Bienvenida.cs",
+              "RelativeDocumentMoniker": "UI\\Bienvenida.cs",
+              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\TP\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\Bienvenida.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\Bienvenida.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T01:41:38.891Z"
             }
           ]
         }
