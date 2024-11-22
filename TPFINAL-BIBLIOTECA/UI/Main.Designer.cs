@@ -32,7 +32,11 @@
             btnAlumnos = new Button();
             btnLibros = new Button();
             btnPrestamos = new Button();
+<<<<<<< HEAD
             button1 = new Button();
+=======
+            btnSalir = new Button();
+>>>>>>> test
             SuspendLayout();
             // 
             // label1
@@ -87,6 +91,7 @@
             btnPrestamos.UseVisualStyleBackColor = false;
             btnPrestamos.Click += btnPrestamos_Click;
             // 
+<<<<<<< HEAD
             // button1
             // 
             button1.BackColor = Color.Brown;
@@ -99,6 +104,20 @@
             button1.Text = "SALIR";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
+=======
+            // btnSalir
+            // 
+            btnSalir.BackColor = Color.Brown;
+            btnSalir.Font = new Font("Microsoft New Tai Lue", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnSalir.ForeColor = Color.White;
+            btnSalir.Location = new Point(178, 315);
+            btnSalir.Name = "btnSalir";
+            btnSalir.Size = new Size(97, 34);
+            btnSalir.TabIndex = 4;
+            btnSalir.Text = "SALIR";
+            btnSalir.UseVisualStyleBackColor = false;
+            btnSalir.Click += btnSalir_Click;
+>>>>>>> test
             // 
             // Main
             // 
@@ -106,7 +125,11 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Maroon;
             ClientSize = new Size(287, 361);
+<<<<<<< HEAD
             Controls.Add(button1);
+=======
+            Controls.Add(btnSalir);
+>>>>>>> test
             Controls.Add(btnPrestamos);
             Controls.Add(btnLibros);
             Controls.Add(btnAlumnos);
@@ -125,6 +148,10 @@
         private Button btnAlumnos;
         private Button btnLibros;
         private Button btnPrestamos;
+<<<<<<< HEAD
         private Button button1;
+=======
+        private Button btnSalir;
+>>>>>>> test
     }
 }

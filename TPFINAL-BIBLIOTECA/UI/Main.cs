@@ -13,7 +13,11 @@ namespace UI
             if (!bienvenidaMostrada)
             {
                 // Invocación a la bienvenida
+<<<<<<< HEAD
                 Bienvenida bienvenida = new Bienvenida();
+=======
+                FormBienvenida bienvenida = new FormBienvenida();
+>>>>>>> test
 
                 bienvenida.ShowDialog();
 
@@ -24,7 +28,11 @@ namespace UI
         private void btnAlumnos_Click(object sender, EventArgs e)
         {
             // Invoación al gestor de alumnos
+<<<<<<< HEAD
             Alumnos alumnos = new Alumnos();
+=======
+            FormAlumnos alumnos = new FormAlumnos();
+>>>>>>> test
 
             this.Hide();
             alumnos.ShowDialog();
@@ -34,7 +42,11 @@ namespace UI
         private void btnLibros_Click(object sender, EventArgs e)
         {
             // Invoacicón al gestor de libros
+<<<<<<< HEAD
             Libros libros = new Libros();
+=======
+            FormLibros libros = new FormLibros();
+>>>>>>> test
 
             this.Hide();
             libros.ShowDialog();
@@ -51,7 +63,11 @@ namespace UI
             this.Show();
         }
 
+<<<<<<< HEAD
         private void button1_Click(object sender, EventArgs e)
+=======
+        private void btnSalir_Click(object sender, EventArgs e)
+>>>>>>> test
         {
             this.Close();
         }
