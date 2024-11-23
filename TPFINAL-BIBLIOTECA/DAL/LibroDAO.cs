@@ -18,7 +18,7 @@ namespace DAL
                 using (SqlConnection connection = new SqlConnection(DbConfigurations.getDbName()))
                 {
                     connection.Open();
-                    string query = "DELETE FROM LIBROS WHERE ID= @id";
+                    string query = "DELETE FROM LIBROS WHERE ID_LIBRO= @id";
                     using (SqlCommand command = new SqlCommand(query, connection))
                     {
                         command.Parameters.AddWithValue("@id", iDlibro);
@@ -41,6 +41,7 @@ namespace DAL
                     string query = "SELECT ID_LIBRO,TITULO,AUTOR,GENERO,CANTIDAD_DISPONIBLE FROM LIBROS WHERE ID_LIBRO=@id";
                     using (SqlCommand comando = new SqlCommand(query, con))
                     {
+                        comando.Parameters.AddWithValue("@id", idlibro);
                         using (SqlDataReader reader = comando.ExecuteReader())
                         {
                             while (reader.Read())
