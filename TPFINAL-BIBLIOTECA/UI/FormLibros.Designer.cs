@@ -92,6 +92,7 @@
             btnConfirmarCambiosLibro.Text = "Confirmar cambios";
             btnConfirmarCambiosLibro.TextAlign = ContentAlignment.BottomCenter;
             btnConfirmarCambiosLibro.UseVisualStyleBackColor = false;
+            btnConfirmarCambiosLibro.Click += btnConfirmarCambiosLibro_Click;
             // 
             // btnAgregarAListaLibro
             // 
@@ -103,6 +104,7 @@
             btnAgregarAListaLibro.Text = "Agregar a la lista";
             btnAgregarAListaLibro.TextAlign = ContentAlignment.BottomCenter;
             btnAgregarAListaLibro.UseVisualStyleBackColor = false;
+            btnAgregarAListaLibro.Click += btnAgregarAListaLibro_Click;
             // 
             // btnCargarUnLibro
             // 
@@ -114,6 +116,7 @@
             btnCargarUnLibro.Text = "Cargar un libro";
             btnCargarUnLibro.TextAlign = ContentAlignment.BottomCenter;
             btnCargarUnLibro.UseVisualStyleBackColor = false;
+            btnCargarUnLibro.Click += btnCargarUnLibro_Click;
             // 
             // txtCantidad
             // 
@@ -203,6 +206,7 @@
             btnBajaLibro.Text = "Dar de baja libro";
             btnBajaLibro.TextAlign = ContentAlignment.BottomCenter;
             btnBajaLibro.UseVisualStyleBackColor = false;
+            btnBajaLibro.Click += btnBajaLibro_Click;
             // 
             // txtBajaIdLibro
             // 
@@ -264,6 +268,7 @@
             btnModificarStockLibro.Text = "Modificar stock";
             btnModificarStockLibro.TextAlign = ContentAlignment.BottomCenter;
             btnModificarStockLibro.UseVisualStyleBackColor = false;
+            btnModificarStockLibro.Click += btnModificarStockLibro_Click;
             // 
             // txtModificarCantidadLibro
             // 

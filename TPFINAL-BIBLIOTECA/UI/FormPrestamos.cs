@@ -36,7 +36,7 @@ namespace UI
         {
             comboLibroPrestamo.ValueMember = "IdLibro";
             comboLibroPrestamo.DisplayMember = "Titulo";
-            comboLibroPrestamo.DataSource = libroBusiness.ObtenerLibros();
+            comboLibroPrestamo.DataSource = libroBusiness.GetLibrosAll();
         }
 
 

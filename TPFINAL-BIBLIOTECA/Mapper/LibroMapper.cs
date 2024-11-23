@@ -15,10 +15,10 @@ namespace Mapper
             Libro libro = new Libro
             {
                 IdLibro = Convert.ToInt32(reader["ID_LIBRO"].ToString()),
-                Titulo = reader["TITULO"].ToString(),
-                Autor = reader["AUTOR"].ToString(),
-                Genero = reader["GENERO"].ToString(),
-                CantidadDisponible = Convert.ToInt32(reader["CANTIDAD_DISPONIBLE"].ToString())
+                TituloLibro = reader["TITULO"].ToString(),
+                AutorLibro = reader["AUTOR"].ToString(),
+                GeneroLibro = reader["GENERO"].ToString(),
+                StockLibro = Convert.ToInt32(reader["CANTIDAD_DISPONIBLE"]),
             };
             return libro;
         }

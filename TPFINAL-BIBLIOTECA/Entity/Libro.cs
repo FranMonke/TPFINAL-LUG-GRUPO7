@@ -9,9 +9,9 @@ namespace Entity
     public class Libro
     {
         public int IdLibro { get; set; }
-        public string Titulo { get; set; }
-        public string Autor { get; set; }
-        public string Genero { get; set; }
-        public int CantidadDisponible { get; set; }
+        public string TituloLibro { get; set; }
+        public string AutorLibro { get; set; }
+        public string GeneroLibro { get; set; }
+        public int StockLibro { get; set; }
     }
 }

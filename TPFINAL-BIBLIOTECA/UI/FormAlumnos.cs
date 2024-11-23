@@ -60,10 +60,12 @@ namespace UI
 
         private void btnAgregarAListaAluumno_Click(object sender, EventArgs e)
         {
-            validacionentradascompletas();
-            Alumnoss alumnoss = LECTURA();
-            borradorAlumnoss.Add(alumnoss);
-            LimpiarTextBoxes();
+            if (validacionentradascompletas())
+            {
+                Alumnoss alumnoss = LECTURA();
+                borradorAlumnoss.Add(alumnoss);
+                LimpiarTextBoxes();
+            }
         }
 
         private void btnConfirmarCambiosAlumno_Click(object sender, EventArgs e)
