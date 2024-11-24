@@ -1,6 +1,6 @@
 ﻿namespace UI
 {
-    partial class FormAlumnos
+    partial class FormAlumno
     {
         /// <summary>
         /// Required designer variable.

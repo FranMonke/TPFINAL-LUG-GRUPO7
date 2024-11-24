@@ -24,7 +24,7 @@ namespace UI
         private void btnAlumnos_Click(object sender, EventArgs e)
         {
             // Invoación al gestor de alumnos
-            FormAlumnos alumnos = new FormAlumnos();
+            FormAlumno alumnos = new FormAlumno();
 
             this.Hide();
             alumnos.ShowDialog();

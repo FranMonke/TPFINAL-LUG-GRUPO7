@@ -1,18 +1,18 @@
 ﻿using Entity;
 using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Mapper
 {
-    public class AlumnosMapper
+    public class AlumnoMapper
     {
-        public static Alumnoss Map(SqlDataReader reader)
+        public static Alumno Map(SqlDataReader reader)
         {
-            Alumnoss alumnos = new Alumnoss();
+            Alumno alumnos = new Alumno();
             alumnos.Dni = reader.GetInt32(0);
             alumnos.NombreCompleto = reader.GetString(1);
             

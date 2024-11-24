@@ -2,7 +2,7 @@
 using Mapper;
 using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,9 +10,9 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace DAL
 {
-    public class AlumnosDAO
+    public class AlumnoDAO
     {
-        public void CargarAlumnos(Alumnoss alumnos)
+        public void CargarAlumnos(Alumno alumnos)
         {
             try
             {
@@ -32,6 +32,7 @@ namespace DAL
                         command.ExecuteNonQuery();
                     }
                 }
+
             }
             catch (Exception ex)
             {
@@ -61,11 +62,11 @@ namespace DAL
             }
         }
 
-        public List<Alumnoss> GetAll()
+        public List<Alumno> GetAll()
         {
             try
             {
-                List<Alumnoss> alumnos = new List<Alumnoss>();
+                List<Alumno> alumnos = new List<Alumno>();
                 using (SqlConnection conection = new SqlConnection(DbConfigurations.getDbName()))
                 {
                     conection.Open();
@@ -76,11 +77,12 @@ namespace DAL
                         {
                             while (reader.Read())
                             {
-                                alumnos.Add(AlumnosMapper.Map(reader));
+                                alumnos.Add(AlumnoMapper.Map(reader));
                             }
                         }
                     }
                 }
+
                 return alumnos;
             }
             catch (Exception ex)
@@ -89,7 +91,7 @@ namespace DAL
             }
         }
 
-        public Alumnoss GetById(int v)
+        public Alumno GetById(int dni)
         {
             try
             {
@@ -99,17 +101,78 @@ namespace DAL
                     string query = "Select DNI_ALUMNO ,NOMBRE_COMPLETO, DIRECCION, TELEFONO, EMAIL,FECHA_REGISTRO FROM ALUMNOS WHERE DNI_ALUMNO = @DNI";
                     using (SqlCommand sqlCommand = new SqlCommand(query, conection))
                     {
-                        sqlCommand.Parameters.AddWithValue("@DNI", v);
+                        sqlCommand.Parameters.AddWithValue("@DNI", dni);
                         using (SqlDataReader reader = sqlCommand.ExecuteReader())
                         {
                             while (reader.Read())
                             {
-                                return AlumnosMapper.Map(reader);
+                                return AlumnoMapper.Map(reader);
                             }
                         }
                     }
                 }
+
                 return null;
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }
+
+        public bool ExisteEmail(string email)
+        {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(DbConfigurations.getDbName()))
+                {
+                    connection.Open();
+
+                    string query = "SELECT 1 FROM ALUMNOS WHERE EMAIL = @EMAIL";
+
+                    using (SqlCommand sqlCommand = new SqlCommand(query, connection))
+                    {
+                        sqlCommand.Parameters.AddWithValue("@EMAIL", email);
+
+                        using (SqlDataReader reader = sqlCommand.ExecuteReader())
+                        {
+                            if (reader.Read())
+                                return true;
+                        }
+                    }
+                }
+
+                return false;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public bool ExisteDni(int dni)
+        {
+            try
+            {
+                using (SqlConnection conection = new SqlConnection(DbConfigurations.getDbName()))
+                {
+                    conection.Open();
+
+                    string query = "SELECT 1 FROM ALUMNOS WHERE DNI_ALUMNO = @DNI";
+
+                    using (SqlCommand sqlCommand = new SqlCommand(query, conection))
+                    {
+                        sqlCommand.Parameters.AddWithValue("@DNI", dni);
+
+                        using (SqlDataReader reader = sqlCommand.ExecuteReader())
+                        {
+                            if (reader.Read())
+                                return true;
+                        }
+                    }
+                }
+
+                return false;
             }
             catch (Exception ex)
             {

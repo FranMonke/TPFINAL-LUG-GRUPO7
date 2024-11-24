@@ -26,13 +26,12 @@ namespace DAL
                     {
                         using (SqlDataReader reader = cmd.ExecuteReader())
                         {
-                             while (reader.Read())
-                             {
+                            while (reader.Read())
+                            {
                                 Prestamo prestamo = PrestamoMapper.Map(reader);
                                 prestamos.Add(prestamo);
-                                  
-                             }
-                        }                       
+                            }
+                        }
                     }
                 }
                 return prestamos;
@@ -129,7 +128,7 @@ namespace DAL
                 throw new Exception("Error al validar si el préstamo ya fue devuelto: " + ex.Message);
             }
         }
-            public void CargarPrestamo(Prestamo prestamo)
+        public void CargarPrestamo(Prestamo prestamo)
         {
             try
             {

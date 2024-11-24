@@ -27,9 +27,9 @@ namespace UI
 
         private void ActualizarDgv()
         {
-            dataGridView1.AutoGenerateColumns = true;
-            dataGridView1.DataSource = null;
-            dataGridView1.DataSource = prestamoBusiness.ObtenerPrestamos();
+            dgvPrestamos.AutoGenerateColumns = true;
+            dgvPrestamos.DataSource = null;
+            dgvPrestamos.DataSource = prestamoBusiness.ObtenerPrestamos();
         }
 
         private void ActualizarComboBox()
@@ -125,8 +125,8 @@ namespace UI
                         .Where(p => p.DniAlumno == dni)
                         .ToList();
 
-                    dataGridView1.DataSource = null;
-                    dataGridView1.DataSource = prestamosFiltrados;
+                    dgvPrestamos.DataSource = null;
+                    dgvPrestamos.DataSource = prestamosFiltrados;
 
                     if (prestamosFiltrados.Count == 0)
                     {
@@ -150,8 +150,8 @@ namespace UI
             {
 
                 txtDniDevolucion.Text = "";
-                dataGridView1.DataSource = null; 
-                dataGridView1.DataSource = prestamoBusiness.ObtenerPrestamos();
+                dgvPrestamos.DataSource = null; 
+                dgvPrestamos.DataSource = prestamoBusiness.ObtenerPrestamos();
             }
             catch (Exception ex)
             {

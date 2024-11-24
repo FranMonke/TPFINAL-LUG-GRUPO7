@@ -5,11 +5,12 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace UI
 {
-    public partial class FormAlumnos : Form
+    public partial class FormAlumno : Form
     {
-        AlumnosBLL alumnosBLL = new AlumnosBLL();
-        private List<Alumnoss> borradorAlumnoss = new List<Alumnoss>();
-        public FormAlumnos()
+        AlumnoBusiness alumnosBLL = new AlumnoBusiness();
+        private List<Alumno> borradorAlumnoss = new List<Alumno>();
+
+        public FormAlumno()
         {
             InitializeComponent();
             ActualizarDgv();
@@ -19,6 +20,7 @@ namespace UI
         {
             this.Close();
         }
+
         private void ActualizarDgv()
         {
             dgvAlumnos.DataSource = null;
@@ -27,13 +29,11 @@ namespace UI
 
         private void btnCargarUnAlumno_Click(object sender, EventArgs e)
         {
-            
-
             try
             {
-                if (validacionentradascompletas())
+                if (Validacionentradascompletas())
                 {
-                    Alumnoss alumnos = LECTURA();
+                    Alumno alumnos = Lectura();
                     alumnosBLL.CargarAlumnos(alumnos);
                     ActualizarDgv();
                     MessageBox.Show("Alumno cargado correctamente");
@@ -47,9 +47,9 @@ namespace UI
 
         }
 
-        private Alumnoss LECTURA()
+        private Alumno Lectura()
         {
-            Alumnoss alumnos = new Alumnoss();
+            Alumno alumnos = new Alumno();
             alumnos.Dni = Convert.ToInt32(txtDniAltaAlumno.Text);
             alumnos.NombreCompleto = txtNombreAlumno.Text;
             alumnos.Direccion = txtDireccionAlumno.Text;
@@ -60,11 +60,13 @@ namespace UI
 
         private void btnAgregarAListaAluumno_Click(object sender, EventArgs e)
         {
-            if (validacionentradascompletas())
+            if (Validacionentradascompletas())
             {
-                Alumnoss alumnoss = LECTURA();
+                Alumno alumnoss = Lectura();
                 borradorAlumnoss.Add(alumnoss);
                 LimpiarTextBoxes();
+
+                MessageBox.Show("Se agregó correctamente al alumno a la lista.");
             }
         }
 
@@ -100,7 +102,6 @@ namespace UI
                 if (string.IsNullOrWhiteSpace(txtDniBajaAlumno.Text))
                 {
                     MessageBox.Show("El campo DNI no puede estar vacío.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
                 }
                 else
                 {
@@ -115,45 +116,42 @@ namespace UI
                 MessageBox.Show(ex.Message);
             }
         }
-        private bool validacionentradascompletas()
+
+        private bool Validacionentradascompletas()
         {
             if (string.IsNullOrWhiteSpace(txtDniAltaAlumno.Text))
             {
                 MessageBox.Show("El campo DNI no puede estar vacío.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
-                
             }
 
             if (string.IsNullOrWhiteSpace(txtNombreAlumno.Text))
             {
                 MessageBox.Show("El campo Nombre Completo no puede estar vacío.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
-                
             }
 
             if (string.IsNullOrWhiteSpace(txtDireccionAlumno.Text))
             {
                 MessageBox.Show("El campo Direccion no puede estar vacío.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
-                
             }
 
             if (string.IsNullOrWhiteSpace(txtTelefonoAlumno.Text))
             {
                 MessageBox.Show("El campo Telefono no puede estar vacío.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
-                
             }
 
             if (string.IsNullOrWhiteSpace(txtEmailAlumno.Text))
             {
                 MessageBox.Show("El campo Email no puede estar vacío.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
-                
             }
 
             return true;
         }
+
         private void LimpiarTextBoxes()
         {
             txtDniAltaAlumno.Clear();

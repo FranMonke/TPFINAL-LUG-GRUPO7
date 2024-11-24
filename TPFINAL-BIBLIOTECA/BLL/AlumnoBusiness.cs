@@ -10,31 +10,40 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace BLL
 {
-    public class AlumnosBLL
+    public class AlumnoBusiness
     {
-        AlumnosDAO alumnosDao = new AlumnosDAO();
+        AlumnoDAO alumnosDao = new AlumnoDAO();
 
-        public void CargarAlumnos(Alumnoss alumnos)
+        public void CargarAlumnos(Alumno alumno)
         {
-
             try
             {
-                using (TransactionScope trx = new TransactionScope())
+                using (TransactionScope trx = new TransactionScope(TransactionScopeOption.Required))
                 {
-                    validaciones(alumnos);
-                    //Todas las validaciones...
-                    alumnos.FechaRegistro= DateTime.Now;
-                    alumnosDao.CargarAlumnos(alumnos);
-                    trx.Complete();
-                }
+                    validaciones(alumno);
+                    alumno.FechaRegistro = DateTime.Now;
 
+                    if (alumnosDao.ExisteDni(alumno.Dni))
+                    {
+                        throw new Exception("Ya hay un alumno registrado con el mismo número de DNI. Intente ingresando otro número.");
+                    }
+
+                    if (alumnosDao.ExisteEmail(alumno.Email))
+                    {
+                        throw new Exception("Ya hay un alumno registrado con el mismo email. Intente ingresando otro email.");
+                    }
+
+                    alumnosDao.CargarAlumnos(alumno);
+                    trx.Complete(); 
+                }
             }
             catch (Exception ex)
             {
-                throw;
+                throw new Exception("Error al cargar alumno", ex);
             }
         }
-        private static void validaciones(Alumnoss alumnos)
+
+        private static void validaciones(Alumno alumnos)
         {
             if (alumnos.Dni.ToString().Length < 8)
             {
@@ -54,7 +63,7 @@ namespace BLL
             }
         }
 
-        public void CargarAlumnosMultiples(List<Alumnoss> alumnos)
+        public void CargarAlumnosMultiples(List<Alumno> alumnos)
         {
             try
             {
@@ -66,7 +75,6 @@ namespace BLL
                     }
                     trx.Complete();
                 }
-
             }
             catch (Exception ex)
             {
@@ -78,8 +86,8 @@ namespace BLL
         {
             try
             {
-                Alumnoss alumnos = alumnosDao.GetById(v);
-                if (alumnos == null) throw new Exception("Alumno inexistente");
+                Alumno alumnos = alumnosDao.GetById(v);
+                if (alumnos == null) throw new Exception("No hay ningún alumno con el númmero de DNI ingresado. Intente nuevamente.");
                 using (TransactionScope trx = new TransactionScope())
                 {
 
@@ -94,7 +102,7 @@ namespace BLL
             }
         }
 
-        public List<Alumnoss> GetAll()
+        public List<Alumno> GetAll()
         {
             try
             {
