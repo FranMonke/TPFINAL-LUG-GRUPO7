@@ -47,7 +47,7 @@ namespace BLL
         {
             if (alumnos.Dni.ToString().Length < 8)
             {
-                throw new Exception("El DNI debe tener al menos 8 dígitos.");
+                throw new Exception("El DNI debe tener 8 dígitos.");
             }
             if (alumnos.NombreCompleto.Length <= 4)
             {

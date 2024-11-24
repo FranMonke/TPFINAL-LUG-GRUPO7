@@ -11,17 +11,17 @@ namespace DAL
 {
     public class LibroDAO
     {
-        public void EliminarLibroById(int iDlibro)
+        public void EliminarLibroById(int idLibro)
         {
             try
             {
                 using (SqlConnection connection = new SqlConnection(DbConfigurations.getDbName()))
                 {
                     connection.Open();
-                    string query = "DELETE FROM LIBROS WHERE ID= @id";
+                    string query = "DELETE FROM LIBROS WHERE ID_LIBRO = @id";
                     using (SqlCommand command = new SqlCommand(query, connection))
                     {
-                        command.Parameters.AddWithValue("@id", iDlibro);
+                        command.Parameters.AddWithValue("@id", idLibro);
                         command.ExecuteNonQuery();
                     }
                 }
@@ -41,6 +41,7 @@ namespace DAL
                     string query = "SELECT ID_LIBRO,TITULO,AUTOR,GENERO,CANTIDAD_DISPONIBLE FROM LIBROS WHERE ID_LIBRO=@id";
                     using (SqlCommand comando = new SqlCommand(query, con))
                     {
+                        comando.Parameters.AddWithValue("@id", idlibro);
                         using (SqlDataReader reader = comando.ExecuteReader())
                         {
                             while (reader.Read())
@@ -152,5 +153,35 @@ namespace DAL
                 throw;
             }
         }
+
+        public bool ExisteLibro(Libro libro)
+        {
+            try
+            {
+                using (SqlConnection con = new SqlConnection(DbConfigurations.getDbName()))
+                {
+                    con.Open();
+                    string query = "SELECT COUNT(*) FROM LIBROS WHERE TITULO = @titulo AND AUTOR = @autor";
+
+                    using (SqlCommand comando = new SqlCommand(query, con))
+                    {
+                        comando.Parameters.AddWithValue("@titulo", libro.TituloLibro);
+                        comando.Parameters.AddWithValue("@autor", libro.AutorLibro);
+
+                        int count = (int)comando.ExecuteScalar();
+
+                        if (count > 0)
+                            return true;
+                    }
+                }
+
+                return false;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al verificar si el libro existe.", ex);
+            }
+        }
+
     }
 }

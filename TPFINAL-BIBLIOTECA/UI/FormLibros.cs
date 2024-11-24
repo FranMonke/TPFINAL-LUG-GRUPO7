@@ -37,21 +37,28 @@ namespace UI
         {
             try
             {
-                Libro libro = GetLibroFromForm();
-                bussinesLibro.CargarLibro(libro);
-                MessageBox.Show("Libro Cargado Correctamente.");
-                ActualizarDGV();
+                if (validacionentradascompletas())
+                {
+                    Libro libro = GetLibroFromForm();
+                    bussinesLibro.CargarLibro(libro);
+                    MessageBox.Show("Libro Cargado Correctamente.");
+                    LimpiarCampos();
+                    ActualizarDGV();
+                }
             }
             catch (Exception ex)
             {
-                throw;
+                MessageBox.Show(ex.Message);
             }
         }
 
         private void btnAgregarAListaLibro_Click(object sender, EventArgs e)
         {
-            Libro libroborr = GetLibroFromForm();
-            borradorLibros.Add(libroborr);
+            if (validacionentradascompletas())
+            {
+                Libro libroborr = GetLibroFromForm();
+                borradorLibros.Add(libroborr);
+            }
         }
 
         private void btnConfirmarCambiosLibro_Click(object sender, EventArgs e)
@@ -61,10 +68,15 @@ namespace UI
                 bussinesLibro.GuardarListaLibros(borradorLibros);
                 ActualizarDGV();
                 MessageBox.Show("Libros Agregados Correctamente");
+                LimpiarCampos();
             }
             catch (Exception ex)
             {
-                throw;
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                borradorLibros.Clear();
             }
         }
 
@@ -72,13 +84,17 @@ namespace UI
         {
             try
             {
-                bussinesLibro.EliminarLibro(Convert.ToInt32(txtBajaIdLibro.Text));
-                ActualizarDGV();
-                MessageBox.Show("Se dio de baja el libro seleccionado");
+                if (!string.IsNullOrWhiteSpace(txtBajaIdLibro.Text))
+                {
+                    bussinesLibro.EliminarLibro(Convert.ToInt32(txtBajaIdLibro.Text));
+                    ActualizarDGV();
+                    MessageBox.Show("Se dio de baja el libro seleccionado");
+                    LimpiarCampos();
+                }
             }
             catch (Exception ex)
             {
-                throw;
+                MessageBox.Show(ex.Message);
             }
         }
 
@@ -86,24 +102,72 @@ namespace UI
         {
             try
             {
-                Libro libro = GetLibroFromForm();
-                if (rbAumentar.Checked == true)
+                if (!string.IsNullOrWhiteSpace(txtModificarIdLibro.Text))
                 {
-                    bussinesLibro.AumentarStock(Convert.ToInt32(txtModificarIdLibro.Text), Convert.ToInt32(txtModificarCantidadLibro.Text));
-                    ActualizarDGV();
-                    MessageBox.Show("Cantidad Actualizada Correctamente.");
-                }
-                if (rbDisminuir.Checked == true)
-                {
-                    bussinesLibro.DisminuirStock(Convert.ToInt32(txtModificarIdLibro.Text), Convert.ToInt32(txtModificarCantidadLibro.Text));
-                    ActualizarDGV();
-                    MessageBox.Show("Cantidad Actualizada Correctamente.");
+                    if (rbAumentar.Checked == true)
+                    {
+                        bussinesLibro.AumentarStock(Convert.ToInt32(txtModificarIdLibro.Text), Convert.ToInt32(txtModificarCantidadLibro.Text));
+                        ActualizarDGV();
+                        MessageBox.Show("Cantidad Actualizada Correctamente.");
+                        LimpiarCampos();
+                    }
+                    if (rbDisminuir.Checked == true)
+                    {
+                        bussinesLibro.DisminuirStock(Convert.ToInt32(txtModificarIdLibro.Text), Convert.ToInt32(txtModificarCantidadLibro.Text));
+                        ActualizarDGV();
+                        MessageBox.Show("Cantidad Actualizada Correctamente.");
+                        LimpiarCampos();
+                    }
                 }
             }
             catch (Exception ex)
             {
-                throw;
+                MessageBox.Show(ex.Message);
             }
+        }
+
+        private void LimpiarCampos()
+        {
+            txtTitulo.Clear();
+            txtAutor.Clear();
+            txtGenero.Clear();
+            txtCantidad.Clear();
+            txtBajaIdLibro.Clear();
+            txtModificarIdLibro.Clear();
+            txtModificarCantidadLibro.Clear();
+        }
+
+        private bool validacionentradascompletas()
+        {
+            if (string.IsNullOrWhiteSpace(txtTitulo.Text))
+            {
+                MessageBox.Show("El campo Titulo no puede estar vacío.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+
+            }
+
+            if (string.IsNullOrWhiteSpace(txtAutor.Text))
+            {
+                MessageBox.Show("El campo Autor no puede estar vacío.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+
+            }
+
+            if (string.IsNullOrWhiteSpace(txtGenero.Text))
+            {
+                MessageBox.Show("El campo Genero no puede estar vacío.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+
+            }
+
+            if (string.IsNullOrWhiteSpace(txtCantidad.Text))
+            {
+                MessageBox.Show("El campo Cantidad no puede estar vacío.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+
+            }
+
+            return true;
         }
     }
 }

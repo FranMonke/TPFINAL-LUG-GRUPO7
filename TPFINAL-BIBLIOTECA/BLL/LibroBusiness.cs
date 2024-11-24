@@ -11,17 +11,19 @@ namespace BLL
 {
     public class LibroBusiness
     {
-
         private LibroDAO librosDao = new LibroDAO();
+
         public void EliminarLibro(int idlibro)
         {
             try
             {
                 using (TransactionScope txr = new TransactionScope())
                 {
-
                     Libro libro = librosDao.TraerLibroPorId(idlibro);
-                    if (libro != null) throw new Exception("Libro inexistente");
+
+                    if (libro == null)
+                        throw new Exception("No hay ningún libro con el número de ID ingresado. Intente nuevamente.");
+
                     librosDao.EliminarLibroById(idlibro);
                     txr.Complete();
                 }
@@ -31,6 +33,7 @@ namespace BLL
                 throw;
             }
         }
+
         public void GuardarListaLibros(List<Libro> librosLista)
         {
             try
@@ -50,20 +53,20 @@ namespace BLL
                 throw;
             }
         }
+
         public void CargarLibro(Libro libro)
         {
             try
             {
+                validaciones(libro);
+
+                if (librosDao.ExisteLibro(libro))
+                {
+                    throw new Exception("Ya hay un libro registrado con el mismo título y autor. Intente nuevamente.");
+                }
+
                 using (TransactionScope trx = new TransactionScope())
                 {
-                    if (libro != null)
-                    {
-                        throw new Exception("El libro no existe.");
-                    }
-                    if (libro.AutorLibro.Length <= 4)
-                    {
-                        throw new Exception("El autor debe tener al menos 3 carecteres.");
-                    }
                     librosDao.CargarLibro(libro);
                     trx.Complete();
                 }
@@ -84,18 +87,19 @@ namespace BLL
                 throw;
             }
         }
-        public void AumentarStock(int idlibro, int nuevostock)
+
+        public void AumentarStock(int idLibro, int nuevoStock)
         {
             try
             {
-                Libro libro = librosDao.TraerLibroPorId(idlibro);
+                Libro libro = librosDao.TraerLibroPorId(idLibro);
+
+                if (libro == null)
+                    throw new Exception("No existe ningún libro con ese ID. Intente nuevamente.");
+
                 using (TransactionScope trx = new TransactionScope())
                 {
-                    if (libro != null)
-                    {
-                        throw new Exception("El libro no existe.");
-                    }
-                    librosDao.AumentarStock(libro, nuevostock);
+                    librosDao.AumentarStock(libro, nuevoStock);
                     trx.Complete();
                 }
             }
@@ -104,18 +108,19 @@ namespace BLL
                 throw;
             }
         }
-        public void DisminuirStock(int idlibro, int nuevostock)
+
+        public void DisminuirStock(int idLibro, int nuevoStock)
         {
             try
             {
-                Libro libro = librosDao.TraerLibroPorId(idlibro);
+                Libro libro = librosDao.TraerLibroPorId(idLibro);
+
+                if (libro == null)
+                    throw new Exception("No existe ningún libro con ese ID. Intente nuevamente.");
+
                 using (TransactionScope trx = new TransactionScope())
                 {
-                    if (libro != null)
-                    {
-                        throw new Exception("El libro no existe.");
-                    }
-                    librosDao.DisminuirStock(libro, nuevostock);
+                    librosDao.DisminuirStock(libro, nuevoStock);
                     trx.Complete();
                 }
             }
@@ -123,6 +128,21 @@ namespace BLL
             {
                 throw;
             }
+        }
+
+        private static void validaciones(Libro libro)
+        {
+            if (libro.TituloLibro.Length < 1)
+                throw new Exception("El nombre del libro debe tener más de 1 caracter.");
+
+            if (libro.AutorLibro.Length <= 4)
+                throw new Exception("El nombre del autor debe tener más de 4 caracteres.");
+
+            if (libro.GeneroLibro.Length < 4)
+                throw new Exception("El género debe tener más de 4 caracteres.");
+
+            if (libro.StockLibro < 1)
+                throw new Exception("La cantidad debe ser mínimo 1.");
         }
     }
 }

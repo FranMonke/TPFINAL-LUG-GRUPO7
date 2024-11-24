@@ -31,7 +31,7 @@ namespace UI
         {
             try
             {
-                if (Validacionentradascompletas())
+                if (ValidacionEntradasCompletas())
                 {
                     Alumno alumnos = Lectura();
                     alumnosBLL.CargarAlumnos(alumnos);
@@ -60,7 +60,7 @@ namespace UI
 
         private void btnAgregarAListaAluumno_Click(object sender, EventArgs e)
         {
-            if (Validacionentradascompletas())
+            if (ValidacionEntradasCompletas())
             {
                 Alumno alumnoss = Lectura();
                 borradorAlumnoss.Add(alumnoss);
@@ -117,7 +117,7 @@ namespace UI
             }
         }
 
-        private bool Validacionentradascompletas()
+        private bool ValidacionEntradasCompletas()
         {
             if (string.IsNullOrWhiteSpace(txtDniAltaAlumno.Text))
             {

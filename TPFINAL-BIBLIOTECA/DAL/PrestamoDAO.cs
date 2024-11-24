@@ -30,6 +30,7 @@ namespace DAL
                             {
                                 Prestamo prestamo = PrestamoMapper.Map(reader);
                                 prestamos.Add(prestamo);
+
                             }
                         }
                     }

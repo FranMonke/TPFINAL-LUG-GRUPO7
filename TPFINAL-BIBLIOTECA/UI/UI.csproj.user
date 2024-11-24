@@ -10,10 +10,10 @@
     <Compile Update="FormLibros.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Main.cs">
+    <Compile Update="FormPrestamos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormPrestamos.cs">
+    <Compile Update="Main.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

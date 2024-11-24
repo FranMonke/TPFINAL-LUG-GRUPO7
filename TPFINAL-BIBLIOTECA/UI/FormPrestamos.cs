@@ -35,10 +35,9 @@ namespace UI
         private void ActualizarComboBox()
         {
             comboLibroPrestamo.ValueMember = "IdLibro";
-            comboLibroPrestamo.DisplayMember = "Titulo";
+            comboLibroPrestamo.DisplayMember = "TituloLibro";
             comboLibroPrestamo.DataSource = libroBusiness.GetLibrosAll();
         }
-
 
 
         private void btnMain_Click(object sender, EventArgs e)
