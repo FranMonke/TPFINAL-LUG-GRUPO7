@@ -18,19 +18,34 @@ namespace DAL
                 using (SqlConnection connection = new SqlConnection(DbConfigurations.getDbName()))
                 {
                     connection.Open();
-                    string query = "DELETE FROM LIBROS WHERE ID_LIBRO = @id";
-                    using (SqlCommand command = new SqlCommand(query, connection))
+
+                    string queryVerificarPrestamos = "SELECT COUNT(*) FROM PRESTAMOS WHERE ID_LIBRO = @idLibro " +
+                                                     "AND (FECHA_DEVOLUCION IS NULL OR FECHA_DEVOLUCION = '')";
+
+                    using (SqlCommand commandVerificar = new SqlCommand(queryVerificarPrestamos, connection))
                     {
-                        command.Parameters.AddWithValue("@id", idLibro);
-                        command.ExecuteNonQuery();
+                        commandVerificar.Parameters.AddWithValue("@idLibro", idLibro);
+                        int prestamosActivos = (int)commandVerificar.ExecuteScalar();
+
+                        if (prestamosActivos > 0)
+                            throw new Exception("No se puede eliminar el libro, ya que está en préstamo y no ha sido devuelto.");
+                    }
+
+                    string queryEliminar = "DELETE FROM LIBROS WHERE ID_LIBRO = @id";
+                    using (SqlCommand commandEliminar = new SqlCommand(queryEliminar, connection))
+                    {
+                        commandEliminar.Parameters.AddWithValue("@id", idLibro);
+                        commandEliminar.ExecuteNonQuery();
                     }
                 }
             }
             catch (Exception ex)
             {
-                throw;
+                throw new Exception(ex.Message);
             }
         }
+
+
         public Libro TraerLibroPorId(int idlibro)
         {
             try
@@ -139,7 +154,8 @@ namespace DAL
                 using (SqlConnection con = new SqlConnection(DbConfigurations.getDbName()))
                 {
                     con.Open();
-                    string query = "UPDATE LIBROS SET CANTIDAD_DISPONIBLE = CANTIDAD_DISPONIBLE - @nuevostock WHERE ID_LIBRO = @id";
+                    string query = "UPDATE LIBROS SET CANTIDAD_DISPONIBLE = CASE WHEN CANTIDAD_DISPONIBLE - @nuevostock < 0 THEN 0 " +
+                                   "ELSE CANTIDAD_DISPONIBLE - @nuevostock END WHERE ID_LIBRO = @id";
                     using (SqlCommand command = new SqlCommand(query, con))
                     {
                         command.Parameters.AddWithValue("@id", libro.IdLibro);

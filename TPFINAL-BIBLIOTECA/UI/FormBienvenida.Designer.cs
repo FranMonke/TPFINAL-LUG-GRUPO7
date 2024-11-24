@@ -37,23 +37,26 @@
             label1.BackColor = Color.Brown;
             label1.Font = new Font("Microsoft New Tai Lue", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(12, 9);
+            label1.Location = new Point(14, 11);
             label1.Name = "label1";
-            label1.Size = new Size(285, 157);
+            label1.Size = new Size(326, 199);
             label1.TabIndex = 0;
             label1.Text = "Bienvenido al sistema de gestión de la biblioteca universitaria de la Universidad Abierta Interamericana";
             // 
-            // Bienvenida
+            // FormBienvenida
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Maroon;
-            ClientSize = new Size(309, 175);
+            ClientSize = new Size(353, 222);
             ControlBox = false;
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.FixedDialog;
-            Name = "Bienvenida";
+            Margin = new Padding(3, 4, 3, 4);
+            MaximizeBox = false;
+            Name = "FormBienvenida";
             ShowIcon = false;
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Bienvenida";
             ResumeLayout(false);
         }

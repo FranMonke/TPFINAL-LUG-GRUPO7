@@ -197,5 +197,60 @@ namespace DAL
                 throw;
             }
         }
+
+        public int GetCantidadLibrosPrestados(int dniAlumno)
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(DbConfigurations.getDbName()))
+                {
+                    conn.Open();
+                    string query = "SELECT COUNT(*) FROM PRESTAMOS WHERE DNI_ALUMNO = @dni AND (FECHA_DEVOLUCION IS NULL OR FECHA_DEVOLUCION = '')";
+
+                    using (SqlCommand command = new SqlCommand(query, conn))
+                    {
+                        command.Parameters.AddWithValue("@dni", dniAlumno);
+
+                        object resultado = command.ExecuteScalar();
+
+                        return resultado != null ? Convert.ToInt32(resultado) : 0;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener la cantidad de libros prestados.", ex);
+            }
+        }
+
+        public bool VerificarPrestamosVencidos(Prestamo prestamo)
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(DbConfigurations.getDbName()))
+                {
+                    conn.Open();
+                    string query = "SELECT COUNT(*) FROM PRESTAMOS WHERE (FECHA_DEVOLUCION IS NULL OR FECHA_DEVOLUCION = '') " +
+                                   "AND DATEDIFF(DAY, FECHA_PRESTAMO, GETDATE()) > 14 AND DNI_ALUMNO = @DNI";
+
+                    using (SqlCommand comando = new SqlCommand(query, conn))
+                    {
+                        comando.Parameters.AddWithValue("@DNI", prestamo.DniAlumno);
+
+                        int count = (int)comando.ExecuteScalar();
+
+                        if (count > 0)
+                            return true;
+                    }
+                }
+
+                return false;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al verificar si el libro existe.", ex);
+            }
+        }
+
     }
 }

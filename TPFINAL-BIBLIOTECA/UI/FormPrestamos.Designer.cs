@@ -241,7 +241,9 @@
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Margin = new Padding(3, 4, 3, 4);
+            MaximizeBox = false;
             Name = "Prestamos";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Gestor de Prestamos";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();

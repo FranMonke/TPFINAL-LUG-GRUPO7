@@ -39,7 +39,6 @@ namespace UI
             comboLibroPrestamo.DataSource = libroBusiness.GetLibrosAll();
         }
 
-
         private void btnMain_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -58,7 +57,9 @@ namespace UI
                 MessageBox.Show("DNI inválido.");
                 return;
             }
+
             Prestamo prestamo = GetPrestamoFromForm();
+
             try
             {
                 prestamoBusiness.CargarPrestamo(prestamo);

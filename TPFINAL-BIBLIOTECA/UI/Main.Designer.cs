@@ -41,7 +41,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Microsoft New Tai Lue", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(12, 9);
+            label1.Location = new Point(14, 11);
             label1.Name = "label1";
             label1.Size = new Size(265, 43);
             label1.TabIndex = 0;
@@ -52,9 +52,10 @@
             // 
             btnAlumnos.BackColor = Color.Brown;
             btnAlumnos.Font = new Font("Microsoft New Tai Lue", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnAlumnos.Location = new Point(63, 55);
+            btnAlumnos.Location = new Point(72, 70);
+            btnAlumnos.Margin = new Padding(3, 4, 3, 4);
             btnAlumnos.Name = "btnAlumnos";
-            btnAlumnos.Size = new Size(156, 77);
+            btnAlumnos.Size = new Size(178, 98);
             btnAlumnos.TabIndex = 1;
             btnAlumnos.Text = "GESTIONAR ALUMNOS";
             btnAlumnos.TextAlign = ContentAlignment.BottomCenter;
@@ -65,9 +66,10 @@
             // 
             btnLibros.BackColor = Color.Brown;
             btnLibros.Font = new Font("Microsoft New Tai Lue", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnLibros.Location = new Point(63, 138);
+            btnLibros.Location = new Point(72, 175);
+            btnLibros.Margin = new Padding(3, 4, 3, 4);
             btnLibros.Name = "btnLibros";
-            btnLibros.Size = new Size(156, 77);
+            btnLibros.Size = new Size(178, 98);
             btnLibros.TabIndex = 2;
             btnLibros.Text = "GESTIONAR LIBROS";
             btnLibros.TextAlign = ContentAlignment.BottomCenter;
@@ -78,9 +80,10 @@
             // 
             btnPrestamos.BackColor = Color.Brown;
             btnPrestamos.Font = new Font("Microsoft New Tai Lue", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnPrestamos.Location = new Point(63, 221);
+            btnPrestamos.Location = new Point(72, 280);
+            btnPrestamos.Margin = new Padding(3, 4, 3, 4);
             btnPrestamos.Name = "btnPrestamos";
-            btnPrestamos.Size = new Size(156, 77);
+            btnPrestamos.Size = new Size(178, 98);
             btnPrestamos.TabIndex = 3;
             btnPrestamos.Text = "GESTIONAR PRESTAMOS";
             btnPrestamos.TextAlign = ContentAlignment.BottomCenter;
@@ -92,9 +95,10 @@
             btnSalir.BackColor = Color.Brown;
             btnSalir.Font = new Font("Microsoft New Tai Lue", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnSalir.ForeColor = Color.White;
-            btnSalir.Location = new Point(178, 315);
+            btnSalir.Location = new Point(203, 399);
+            btnSalir.Margin = new Padding(3, 4, 3, 4);
             btnSalir.Name = "btnSalir";
-            btnSalir.Size = new Size(97, 34);
+            btnSalir.Size = new Size(111, 43);
             btnSalir.TabIndex = 4;
             btnSalir.Text = "SALIR";
             btnSalir.UseVisualStyleBackColor = false;
@@ -102,17 +106,20 @@
             // 
             // Main
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Maroon;
-            ClientSize = new Size(287, 361);
+            ClientSize = new Size(328, 457);
             Controls.Add(btnSalir);
             Controls.Add(btnPrestamos);
             Controls.Add(btnLibros);
             Controls.Add(btnAlumnos);
             Controls.Add(label1);
             ForeColor = SystemColors.ButtonFace;
+            Margin = new Padding(3, 4, 3, 4);
+            MaximizeBox = false;
             Name = "Main";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Main";
             Load += Main_Load;
             ResumeLayout(false);
