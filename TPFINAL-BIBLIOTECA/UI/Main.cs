@@ -13,7 +13,7 @@ namespace UI
             if (!bienvenidaMostrada)
             {
                 // Invocación a la bienvenida
-                Bienvenida bienvenida = new Bienvenida();
+                FormBienvenida bienvenida = new FormBienvenida();
 
                 bienvenida.ShowDialog();
 
@@ -24,7 +24,7 @@ namespace UI
         private void btnAlumnos_Click(object sender, EventArgs e)
         {
             // Invoación al gestor de alumnos
-            Alumnos alumnos = new Alumnos();
+            FormAlumnos alumnos = new FormAlumnos();
 
             this.Hide();
             alumnos.ShowDialog();
@@ -34,7 +34,7 @@ namespace UI
         private void btnLibros_Click(object sender, EventArgs e)
         {
             // Invoacicón al gestor de libros
-            Libros libros = new Libros();
+            FormLibros libros = new FormLibros();
 
             this.Hide();
             libros.ShowDialog();
@@ -51,7 +51,7 @@ namespace UI
             this.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnSalir_Click(object sender, EventArgs e)
         {
             this.Close();
         }

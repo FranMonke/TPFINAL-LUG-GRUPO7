@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|c:\\users\\fran m\u00F6nke\\documents\\fran\\uai\\4to cuatri\\lug\\tp final\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\ui\\formlibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\formlibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|c:\\users\\fran m\u00F6nke\\documents\\fran\\uai\\4to cuatri\\lug\\tp final\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\bll\\alumnosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|solutionrelative:bll\\alumnosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|c:\\users\\fran m\u00F6nke\\documents\\fran\\uai\\4to cuatri\\lug\\tp final\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\ui\\formalumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\formalumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\ui\\formlibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\formlibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormAlumnos.cs",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\FormAlumnos.cs",
+              "RelativeDocumentMoniker": "UI\\FormAlumnos.cs",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\FormAlumnos.cs",
+              "RelativeToolTip": "UI\\FormAlumnos.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAYwEMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T00:38:24.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlumnosBLL.cs",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\AlumnosBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\AlumnosBLL.cs",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\AlumnosBLL.cs",
+              "RelativeToolTip": "BLL\\AlumnosBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T00:38:00.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormLibros.cs",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\FormLibros.cs",
+              "RelativeDocumentMoniker": "UI\\FormLibros.cs",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\FormLibros.cs",
+              "RelativeToolTip": "UI\\FormLibros.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T00:29:25.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormLibros.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\FormLibros.cs",
+              "RelativeDocumentMoniker": "UI\\FormLibros.cs",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\FormLibros.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\FormLibros.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T00:29:55.56Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
