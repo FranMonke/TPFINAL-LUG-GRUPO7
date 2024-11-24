@@ -60,14 +60,22 @@ namespace UI
 
         private void btnAgregarAListaAluumno_Click(object sender, EventArgs e)
         {
-            if (ValidacionEntradasCompletas())
+            try
             {
-                Alumno alumnoss = Lectura();
-                borradorAlumnoss.Add(alumnoss);
-                LimpiarTextBoxes();
+                if (ValidacionEntradasCompletas())
+                {
+                    Alumno alumnoss = Lectura();
+                    borradorAlumnoss.Add(alumnoss);
+                    LimpiarTextBoxes();
 
-                MessageBox.Show("Se agregó correctamente al alumno a la lista.");
+                    MessageBox.Show("Se agregó correctamente al alumno a la lista.");
+                }
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
         }
 
         private void btnConfirmarCambiosAlumno_Click(object sender, EventArgs e)

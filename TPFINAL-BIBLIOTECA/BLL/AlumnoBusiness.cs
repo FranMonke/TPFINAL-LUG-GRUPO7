@@ -39,7 +39,7 @@ namespace BLL
             }
             catch (Exception ex)
             {
-                throw new Exception("Error al cargar alumno", ex);
+                throw new Exception(ex.Message);
             }
         }
 

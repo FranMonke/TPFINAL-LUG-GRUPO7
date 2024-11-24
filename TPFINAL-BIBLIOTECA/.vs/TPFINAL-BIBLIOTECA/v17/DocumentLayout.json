@@ -1,30 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gonss\\Desktop\\LUG\\TP Final\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\",
+  "WorkspaceRootPath": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|c:\\users\\gonss\\desktop\\lug\\tp final\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\dal\\librodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|solutionrelative:dal\\librodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|c:\\users\\fran m\u00F6nke\\documents\\fran\\uai\\4to cuatri\\lug\\tp final\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\ui\\formalumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\formalumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|c:\\users\\gonss\\desktop\\lug\\tp final\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\dal\\prestamodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|solutionrelative:dal\\prestamodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|c:\\users\\fran m\u00F6nke\\documents\\fran\\uai\\4to cuatri\\lug\\tp final\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\ui\\formalumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\formalumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|c:\\users\\gonss\\desktop\\lug\\tp final\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\bll\\librobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|solutionrelative:bll\\librobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|c:\\users\\fran m\u00F6nke\\documents\\fran\\uai\\4to cuatri\\lug\\tp final\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\ui\\formprestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\formprestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|c:\\users\\gonss\\desktop\\lug\\tp final\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\bll\\prestamobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|solutionrelative:bll\\prestamobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|c:\\users\\fran m\u00F6nke\\documents\\fran\\uai\\4to cuatri\\lug\\tp final\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\ui\\formbienvenida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\formbienvenida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|c:\\users\\gonss\\desktop\\lug\\tp final\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\ui\\formprestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|c:\\users\\fran m\u00F6nke\\documents\\fran\\uai\\4to cuatri\\lug\\tp final\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\ui\\formprestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\formprestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|c:\\users\\gonss\\desktop\\lug\\tp final\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\ui\\formlibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|c:\\users\\fran m\u00F6nke\\documents\\fran\\uai\\4to cuatri\\lug\\tp final\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\ui\\formlibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\formlibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|c:\\users\\fran m\u00F6nke\\documents\\fran\\uai\\4to cuatri\\lug\\tp final\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\bll\\librobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|solutionrelative:bll\\librobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|c:\\users\\fran m\u00F6nke\\documents\\fran\\uai\\4to cuatri\\lug\\tp final\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\bll\\prestamobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|solutionrelative:bll\\prestamobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|c:\\users\\fran m\u00F6nke\\documents\\fran\\uai\\4to cuatri\\lug\\tp final\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\bll\\alumnobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D8DF68-1B5C-4446-8419-5B72C428B451}|BLL\\BLL.csproj|solutionrelative:bll\\alumnobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|c:\\users\\fran m\u00F6nke\\documents\\fran\\uai\\4to cuatri\\lug\\tp final\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\dal\\librodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|solutionrelative:dal\\librodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|c:\\users\\fran m\u00F6nke\\documents\\fran\\uai\\4to cuatri\\lug\\tp final\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\ui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3FC3243B-F43D-463F-BCFA-9DB98623729A}|UI\\UI.csproj|solutionrelative:ui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|c:\\users\\fran m\u00F6nke\\documents\\fran\\uai\\4to cuatri\\lug\\tp final\\tpfinal-lug-grupo7\\tpfinal-biblioteca\\dal\\prestamodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B7177D3-F15D-4509-AA19-08BEB008BDC3}|DAL\\DAL.csproj|solutionrelative:dal\\prestamodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,38 +58,122 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormAlumno.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\FormAlumno.cs",
+              "RelativeDocumentMoniker": "UI\\FormAlumno.cs",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\FormAlumno.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\FormAlumno.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T20:04:04.868Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormBienvenida.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\FormBienvenida.cs",
+              "RelativeDocumentMoniker": "UI\\FormBienvenida.cs",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\FormBienvenida.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\FormBienvenida.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T20:02:13.832Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "FormPrestamos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\FormPrestamos.cs",
+              "RelativeDocumentMoniker": "UI\\FormPrestamos.cs",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\FormPrestamos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\FormPrestamos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T19:51:31.222Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormPrestamos.cs",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\FormPrestamos.cs",
+              "RelativeDocumentMoniker": "UI\\FormPrestamos.cs",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\FormPrestamos.cs",
+              "RelativeToolTip": "UI\\FormPrestamos.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAmwGgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T17:30:15.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormAlumno.cs",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\FormAlumno.cs",
+              "RelativeDocumentMoniker": "UI\\FormAlumno.cs",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\FormAlumno.cs",
+              "RelativeToolTip": "UI\\FormAlumno.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAcwEwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T19:40:57.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AlumnoBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\AlumnoBusiness.cs",
+              "RelativeDocumentMoniker": "BLL\\AlumnoBusiness.cs",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\AlumnoBusiness.cs",
+              "RelativeToolTip": "BLL\\AlumnoBusiness.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wCkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T19:40:18.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\App.config",
+              "RelativeDocumentMoniker": "UI\\App.config",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\App.config",
+              "RelativeToolTip": "UI\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAACqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-24T19:37:44.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "LibroBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\gonss\\Desktop\\LUG\\TP Final\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\LibroBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\LibroBusiness.cs",
               "RelativeDocumentMoniker": "BLL\\LibroBusiness.cs",
-              "ToolTip": "C:\\Users\\gonss\\Desktop\\LUG\\TP Final\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\LibroBusiness.cs",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\LibroBusiness.cs",
               "RelativeToolTip": "BLL\\LibroBusiness.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowD4AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowA8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T18:00:22.873Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "LibroDAO.cs",
-              "DocumentMoniker": "C:\\Users\\gonss\\Desktop\\LUG\\TP Final\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\LibroDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\LibroDAO.cs",
               "RelativeDocumentMoniker": "DAL\\LibroDAO.cs",
-              "ToolTip": "C:\\Users\\gonss\\Desktop\\LUG\\TP Final\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\LibroDAO.cs",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\LibroDAO.cs",
               "RelativeToolTip": "DAL\\LibroDAO.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAcwCsAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T17:52:15.377Z",
               "EditorCaption": ""
@@ -74,48 +182,35 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "FormLibros.cs",
-              "DocumentMoniker": "C:\\Users\\gonss\\Desktop\\LUG\\TP Final\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\FormLibros.cs",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\FormLibros.cs",
               "RelativeDocumentMoniker": "UI\\FormLibros.cs",
-              "ToolTip": "C:\\Users\\gonss\\Desktop\\LUG\\TP Final\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\FormLibros.cs",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\FormLibros.cs",
               "RelativeToolTip": "UI\\FormLibros.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAAwGQAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwEwAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T17:51:55.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormPrestamos.cs",
-              "DocumentMoniker": "C:\\Users\\gonss\\Desktop\\LUG\\TP Final\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\FormPrestamos.cs",
-              "RelativeDocumentMoniker": "UI\\FormPrestamos.cs",
-              "ToolTip": "C:\\Users\\gonss\\Desktop\\LUG\\TP Final\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\UI\\FormPrestamos.cs",
-              "RelativeToolTip": "UI\\FormPrestamos.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAnwEAAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:30:15.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "PrestamoBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\gonss\\Desktop\\LUG\\TP Final\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\PrestamoBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\PrestamoBusiness.cs",
               "RelativeDocumentMoniker": "BLL\\PrestamoBusiness.cs",
-              "ToolTip": "C:\\Users\\gonss\\Desktop\\LUG\\TP Final\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\PrestamoBusiness.cs",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\BLL\\PrestamoBusiness.cs",
               "RelativeToolTip": "BLL\\PrestamoBusiness.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwDEAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAA1wDEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T17:29:23.857Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "PrestamoDAO.cs",
-              "DocumentMoniker": "C:\\Users\\gonss\\Desktop\\LUG\\TP Final\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\PrestamoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\PrestamoDAO.cs",
               "RelativeDocumentMoniker": "DAL\\PrestamoDAO.cs",
-              "ToolTip": "C:\\Users\\gonss\\Desktop\\LUG\\TP Final\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\PrestamoDAO.cs",
+              "ToolTip": "C:\\Users\\Fran M\u00F6nke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\DAL\\PrestamoDAO.cs",
               "RelativeToolTip": "DAL\\PrestamoDAO.cs",
               "ViewState": "AgIAAIwAAAAAAAAAAAAUwLEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

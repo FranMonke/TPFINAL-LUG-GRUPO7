@@ -70,11 +70,9 @@
             gbAltaAlumno.Controls.Add(label1);
             gbAltaAlumno.Font = new Font("Microsoft New Tai Lue", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             gbAltaAlumno.ForeColor = Color.White;
-            gbAltaAlumno.Location = new Point(14, 15);
-            gbAltaAlumno.Margin = new Padding(3, 4, 3, 4);
+            gbAltaAlumno.Location = new Point(12, 12);
             gbAltaAlumno.Name = "gbAltaAlumno";
-            gbAltaAlumno.Padding = new Padding(3, 4, 3, 4);
-            gbAltaAlumno.Size = new Size(290, 303);
+            gbAltaAlumno.Size = new Size(254, 239);
             gbAltaAlumno.TabIndex = 0;
             gbAltaAlumno.TabStop = false;
             gbAltaAlumno.Tag = "";
@@ -83,10 +81,9 @@
             // btnConfirmarCambiosAlumno
             // 
             btnConfirmarCambiosAlumno.BackColor = Color.Brown;
-            btnConfirmarCambiosAlumno.Location = new Point(198, 232);
-            btnConfirmarCambiosAlumno.Margin = new Padding(3, 4, 3, 4);
+            btnConfirmarCambiosAlumno.Location = new Point(173, 183);
             btnConfirmarCambiosAlumno.Name = "btnConfirmarCambiosAlumno";
-            btnConfirmarCambiosAlumno.Size = new Size(86, 63);
+            btnConfirmarCambiosAlumno.Size = new Size(75, 50);
             btnConfirmarCambiosAlumno.TabIndex = 12;
             btnConfirmarCambiosAlumno.Text = "Confirmar cambios";
             btnConfirmarCambiosAlumno.UseVisualStyleBackColor = false;
@@ -95,10 +92,9 @@
             // btnAgregarAListaAluumno
             // 
             btnAgregarAListaAluumno.BackColor = Color.Brown;
-            btnAgregarAListaAluumno.Location = new Point(103, 232);
-            btnAgregarAListaAluumno.Margin = new Padding(3, 4, 3, 4);
+            btnAgregarAListaAluumno.Location = new Point(90, 183);
             btnAgregarAListaAluumno.Name = "btnAgregarAListaAluumno";
-            btnAgregarAListaAluumno.Size = new Size(86, 63);
+            btnAgregarAListaAluumno.Size = new Size(75, 50);
             btnAgregarAListaAluumno.TabIndex = 11;
             btnAgregarAListaAluumno.Text = "Agregar a la lista";
             btnAgregarAListaAluumno.UseVisualStyleBackColor = false;
@@ -107,10 +103,9 @@
             // btnCargarUnAlumno
             // 
             btnCargarUnAlumno.BackColor = Color.Brown;
-            btnCargarUnAlumno.Location = new Point(7, 232);
-            btnCargarUnAlumno.Margin = new Padding(3, 4, 3, 4);
+            btnCargarUnAlumno.Location = new Point(6, 183);
             btnCargarUnAlumno.Name = "btnCargarUnAlumno";
-            btnCargarUnAlumno.Size = new Size(86, 63);
+            btnCargarUnAlumno.Size = new Size(75, 50);
             btnCargarUnAlumno.TabIndex = 10;
             btnCargarUnAlumno.Text = "Cargar un alumno";
             btnCargarUnAlumno.UseVisualStyleBackColor = false;
@@ -118,48 +113,43 @@
             // 
             // txtEmailAlumno
             // 
-            txtEmailAlumno.Location = new Point(139, 180);
-            txtEmailAlumno.Margin = new Padding(3, 4, 3, 4);
+            txtEmailAlumno.Location = new Point(122, 142);
             txtEmailAlumno.Name = "txtEmailAlumno";
-            txtEmailAlumno.Size = new Size(143, 25);
+            txtEmailAlumno.Size = new Size(126, 25);
             txtEmailAlumno.TabIndex = 9;
             // 
             // txtTelefonoAlumno
             // 
-            txtTelefonoAlumno.Location = new Point(139, 141);
-            txtTelefonoAlumno.Margin = new Padding(3, 4, 3, 4);
+            txtTelefonoAlumno.Location = new Point(122, 111);
             txtTelefonoAlumno.Name = "txtTelefonoAlumno";
-            txtTelefonoAlumno.Size = new Size(143, 25);
+            txtTelefonoAlumno.Size = new Size(126, 25);
             txtTelefonoAlumno.TabIndex = 8;
             // 
             // txtDireccionAlumno
             // 
-            txtDireccionAlumno.Location = new Point(139, 101);
-            txtDireccionAlumno.Margin = new Padding(3, 4, 3, 4);
+            txtDireccionAlumno.Location = new Point(122, 80);
             txtDireccionAlumno.Name = "txtDireccionAlumno";
-            txtDireccionAlumno.Size = new Size(143, 25);
+            txtDireccionAlumno.Size = new Size(126, 25);
             txtDireccionAlumno.TabIndex = 7;
             // 
             // txtNombreAlumno
             // 
-            txtNombreAlumno.Location = new Point(139, 62);
-            txtNombreAlumno.Margin = new Padding(3, 4, 3, 4);
+            txtNombreAlumno.Location = new Point(122, 49);
             txtNombreAlumno.Name = "txtNombreAlumno";
-            txtNombreAlumno.Size = new Size(143, 25);
+            txtNombreAlumno.Size = new Size(126, 25);
             txtNombreAlumno.TabIndex = 6;
             // 
             // txtDniAltaAlumno
             // 
-            txtDniAltaAlumno.Location = new Point(139, 23);
-            txtDniAltaAlumno.Margin = new Padding(3, 4, 3, 4);
+            txtDniAltaAlumno.Location = new Point(122, 18);
             txtDniAltaAlumno.Name = "txtDniAltaAlumno";
-            txtDniAltaAlumno.Size = new Size(143, 25);
+            txtDniAltaAlumno.Size = new Size(126, 25);
             txtDniAltaAlumno.TabIndex = 5;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(7, 184);
+            label5.Location = new Point(6, 145);
             label5.Name = "label5";
             label5.Size = new Size(39, 17);
             label5.TabIndex = 4;
@@ -168,7 +158,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(7, 144);
+            label4.Location = new Point(6, 114);
             label4.Name = "label4";
             label4.Size = new Size(59, 17);
             label4.TabIndex = 3;
@@ -177,7 +167,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(7, 105);
+            label3.Location = new Point(6, 83);
             label3.Name = "label3";
             label3.Size = new Size(62, 17);
             label3.TabIndex = 2;
@@ -186,7 +176,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(7, 66);
+            label2.Location = new Point(6, 52);
             label2.Name = "label2";
             label2.Size = new Size(116, 17);
             label2.TabIndex = 1;
@@ -195,7 +185,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(7, 27);
+            label1.Location = new Point(6, 21);
             label1.Name = "label1";
             label1.Size = new Size(30, 17);
             label1.TabIndex = 0;
@@ -208,11 +198,9 @@
             gbBajaAlumno.Controls.Add(label6);
             gbBajaAlumno.Font = new Font("Microsoft New Tai Lue", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             gbBajaAlumno.ForeColor = Color.White;
-            gbBajaAlumno.Location = new Point(14, 326);
-            gbBajaAlumno.Margin = new Padding(3, 4, 3, 4);
+            gbBajaAlumno.Location = new Point(12, 257);
             gbBajaAlumno.Name = "gbBajaAlumno";
-            gbBajaAlumno.Padding = new Padding(3, 4, 3, 4);
-            gbBajaAlumno.Size = new Size(290, 122);
+            gbBajaAlumno.Size = new Size(254, 96);
             gbBajaAlumno.TabIndex = 1;
             gbBajaAlumno.TabStop = false;
             gbBajaAlumno.Text = "Baja Alumno";
@@ -220,10 +208,9 @@
             // btnBajaAlumno
             // 
             btnBajaAlumno.BackColor = Color.Brown;
-            btnBajaAlumno.Location = new Point(64, 75);
-            btnBajaAlumno.Margin = new Padding(3, 4, 3, 4);
+            btnBajaAlumno.Location = new Point(56, 59);
             btnBajaAlumno.Name = "btnBajaAlumno";
-            btnBajaAlumno.Size = new Size(157, 37);
+            btnBajaAlumno.Size = new Size(137, 29);
             btnBajaAlumno.TabIndex = 11;
             btnBajaAlumno.Text = "Dar de baja alumno";
             btnBajaAlumno.TextAlign = ContentAlignment.BottomCenter;
@@ -232,16 +219,15 @@
             // 
             // txtDniBajaAlumno
             // 
-            txtDniBajaAlumno.Location = new Point(64, 23);
-            txtDniBajaAlumno.Margin = new Padding(3, 4, 3, 4);
+            txtDniBajaAlumno.Location = new Point(56, 18);
             txtDniBajaAlumno.Name = "txtDniBajaAlumno";
-            txtDniBajaAlumno.Size = new Size(219, 25);
+            txtDniBajaAlumno.Size = new Size(192, 25);
             txtDniBajaAlumno.TabIndex = 7;
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(7, 27);
+            label6.Location = new Point(6, 21);
             label6.Name = "label6";
             label6.Size = new Size(30, 17);
             label6.TabIndex = 6;
@@ -253,10 +239,9 @@
             dgvAlumnos.BackgroundColor = Color.Brown;
             dgvAlumnos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvAlumnos.GridColor = Color.White;
-            dgvAlumnos.Location = new Point(311, 15);
-            dgvAlumnos.Margin = new Padding(3, 4, 3, 4);
+            dgvAlumnos.Location = new Point(272, 12);
             dgvAlumnos.Name = "dgvAlumnos";
-            dgvAlumnos.Size = new Size(590, 476);
+            dgvAlumnos.Size = new Size(781, 376);
             dgvAlumnos.TabIndex = 2;
             // 
             // btnMain
@@ -264,10 +249,9 @@
             btnMain.BackColor = Color.Brown;
             btnMain.Font = new Font("Microsoft New Tai Lue", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnMain.ForeColor = Color.White;
-            btnMain.Location = new Point(78, 455);
-            btnMain.Margin = new Padding(3, 4, 3, 4);
+            btnMain.Location = new Point(68, 359);
             btnMain.Name = "btnMain";
-            btnMain.Size = new Size(157, 37);
+            btnMain.Size = new Size(137, 29);
             btnMain.TabIndex = 12;
             btnMain.Text = "VOLVER AL MAIN";
             btnMain.TextAlign = ContentAlignment.BottomCenter;
@@ -276,15 +260,14 @@
             // 
             // FormAlumno
             // 
-            AutoScaleDimensions = new SizeF(8F, 19F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Maroon;
-            ClientSize = new Size(914, 507);
+            ClientSize = new Size(1065, 400);
             Controls.Add(btnMain);
             Controls.Add(dgvAlumnos);
             Controls.Add(gbBajaAlumno);
             Controls.Add(gbAltaAlumno);
-            Margin = new Padding(3, 4, 3, 4);
             MaximizeBox = false;
             Name = "FormAlumno";
             StartPosition = FormStartPosition.CenterScreen;

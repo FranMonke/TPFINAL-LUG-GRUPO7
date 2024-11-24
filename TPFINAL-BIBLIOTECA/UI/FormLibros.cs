@@ -65,10 +65,17 @@ namespace UI
         {
             try
             {
-                bussinesLibro.GuardarListaLibros(borradorLibros);
-                ActualizarDGV();
-                MessageBox.Show("Libros Agregados Correctamente");
-                LimpiarCampos();
+                if(borradorLibros.Count > 0)
+                {
+                    bussinesLibro.GuardarListaLibros(borradorLibros);
+                    ActualizarDGV();
+                    MessageBox.Show("Libros Agregados Correctamente");
+                    LimpiarCampos();
+                }
+                else
+                {
+                    throw new Exception("La lista de libros está vacía");
+                }
             }
             catch (Exception ex)
             {

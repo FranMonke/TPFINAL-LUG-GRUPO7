@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gonss\\Desktop\\LUG\\TP Final\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\Mapper.csproj": {}
+    "C:\\Users\\Fran Mönke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\Mapper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gonss\\Desktop\\LUG\\TP Final\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Entity.csproj": {
+    "C:\\Users\\Fran Mönke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gonss\\Desktop\\LUG\\TP Final\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Fran Mönke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\gonss\\Desktop\\LUG\\TP Final\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Entity.csproj",
-        "packagesPath": "C:\\Users\\gonss\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gonss\\Desktop\\LUG\\TP Final\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\obj\\",
+        "projectPath": "C:\\Users\\Fran Mönke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Entity.csproj",
+        "packagesPath": "C:\\Users\\Fran Mönke\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fran Mönke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\gonss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fran Mönke\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,8 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -75,24 +75,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\gonss\\Desktop\\LUG\\TP Final\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\Mapper.csproj": {
+    "C:\\Users\\Fran Mönke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\Mapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gonss\\Desktop\\LUG\\TP Final\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\Mapper.csproj",
+        "projectUniqueName": "C:\\Users\\Fran Mönke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\Mapper.csproj",
         "projectName": "Mapper",
-        "projectPath": "C:\\Users\\gonss\\Desktop\\LUG\\TP Final\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\Mapper.csproj",
-        "packagesPath": "C:\\Users\\gonss\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gonss\\Desktop\\LUG\\TP Final\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\obj\\",
+        "projectPath": "C:\\Users\\Fran Mönke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\Mapper.csproj",
+        "packagesPath": "C:\\Users\\Fran Mönke\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fran Mönke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Mapper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\gonss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fran Mönke\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -101,15 +101,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\gonss\\Desktop\\LUG\\TP Final\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\gonss\\Desktop\\LUG\\TP Final\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Entity.csproj"
+              "C:\\Users\\Fran Mönke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Fran Mönke\\Documents\\Fran\\UAI\\4to Cuatri\\LUG\\TP FINAL\\TPFINAL-LUG-GRUPO7\\TPFINAL-BIBLIOTECA\\Entity\\Entity.csproj"
               }
             }
           }
@@ -122,8 +121,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -154,7 +154,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

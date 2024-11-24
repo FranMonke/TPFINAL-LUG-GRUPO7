@@ -58,7 +58,6 @@ C:\Users\Fran Mönke\Documents\Fran\UAI\4to Cuatri\LUG\TP FINAL\TPFINAL-LUG-GRUP
 C:\Users\Fran Mönke\Documents\Fran\UAI\4to Cuatri\LUG\TP FINAL\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\Entity.pdb
 C:\Users\Fran Mönke\Documents\Fran\UAI\4to Cuatri\LUG\TP FINAL\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\bin\Debug\net8.0-windows\Mapper.pdb
 C:\Users\Fran Mönke\Documents\Fran\UAI\4to Cuatri\LUG\TP FINAL\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.csproj.AssemblyReference.cache
-C:\Users\Fran Mönke\Documents\Fran\UAI\4to Cuatri\LUG\TP FINAL\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.FormAlumnos.resources
 C:\Users\Fran Mönke\Documents\Fran\UAI\4to Cuatri\LUG\TP FINAL\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.FormBienvenida.resources
 C:\Users\Fran Mönke\Documents\Fran\UAI\4to Cuatri\LUG\TP FINAL\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.FormLibros.resources
 C:\Users\Fran Mönke\Documents\Fran\UAI\4to Cuatri\LUG\TP FINAL\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.Prestamos.resources
@@ -152,3 +151,4 @@ C:\Users\gonss\Desktop\LUG\TP Final\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj
 C:\Users\gonss\Desktop\LUG\TP Final\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.pdb
 C:\Users\gonss\Desktop\LUG\TP Final\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.genruntimeconfig.cache
 C:\Users\gonss\Desktop\LUG\TP Final\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\ref\UI.dll
+C:\Users\Fran Mönke\Documents\Fran\UAI\4to Cuatri\LUG\TP FINAL\TPFINAL-LUG-GRUPO7\TPFINAL-BIBLIOTECA\UI\obj\Debug\net8.0-windows\UI.FormAlumno.resources

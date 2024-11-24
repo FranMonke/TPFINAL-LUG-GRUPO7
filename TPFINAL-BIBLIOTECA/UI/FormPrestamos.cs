@@ -46,22 +46,22 @@ namespace UI
 
         private void btnPrestamo_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtAlumnoPrestamo.Text))
-            {
-                MessageBox.Show("El campo ''DNI Alumno'' no puede estar vacío.");
-                return;
-            }
-
-            if (!int.TryParse(txtAlumnoPrestamo.Text, out int dniAlumno))
-            {
-                MessageBox.Show("DNI inválido.");
-                return;
-            }
-
-            Prestamo prestamo = GetPrestamoFromForm();
 
             try
             {
+                if (string.IsNullOrWhiteSpace(txtAlumnoPrestamo.Text))
+                {
+                    MessageBox.Show("El campo ''DNI Alumno'' no puede estar vacío.");
+                    return;
+                }
+
+                if (!int.TryParse(txtAlumnoPrestamo.Text, out int dniAlumno))
+                {
+                    MessageBox.Show("DNI inválido.");
+                    return;
+                }
+
+                Prestamo prestamo = GetPrestamoFromForm();
                 prestamoBusiness.CargarPrestamo(prestamo);
                 ActualizarDgv();
                 MessageBox.Show("Préstamo cargado con éxito!");
@@ -70,23 +70,27 @@ namespace UI
             {
                 MessageBox.Show(ex.Message);
             }
+            finally
+            {
+                txtAlumnoPrestamo.Clear();
+            }
         }
 
         private void btnDevolucion_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtPrestamoDevolucion.Text))
-            {
-                MessageBox.Show("El campo ''ID Préstamo'' no puede estar vacío.");
-                return;
-            }
-            if (!int.TryParse(txtPrestamoDevolucion.Text, out int idPrestamo))
-            {
-                MessageBox.Show("ID de préstamo inválido.");
-                return;
-            }
-            Prestamo prestamo = GetDevolucionFromForm();
             try
             {
+                if (string.IsNullOrWhiteSpace(txtPrestamoDevolucion.Text))
+                {
+                    MessageBox.Show("El campo ''ID Préstamo'' no puede estar vacío.");
+                    return;
+                }
+                if (!int.TryParse(txtPrestamoDevolucion.Text, out int idPrestamo))
+                {
+                    MessageBox.Show("ID de préstamo inválido.");
+                    return;
+                }
+                Prestamo prestamo = GetDevolucionFromForm();
                 prestamoBusiness.CargarDevolucion(prestamo);
                 ActualizarDgv();
                 MessageBox.Show("Devolución cargada con éxito!");
@@ -94,6 +98,11 @@ namespace UI
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                txtPrestamoDevolucion.Clear();
+                txtDniDevolucion.Clear();
             }
         }
 
